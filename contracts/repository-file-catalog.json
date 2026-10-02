@@ -7233,7 +7233,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Package exports, scripts and exact dependency pins"
+      "purpose": "Package exports, scripts and exact dependency pins",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7248,7 +7251,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Reproducible dependency lock"
+      "purpose": "Reproducible dependency lock",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7263,7 +7269,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Build and credential exclusions"
+      "purpose": "Build and credential exclusions",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7308,7 +7317,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Formatter exclusions"
+      "purpose": "Formatter exclusions",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7338,7 +7350,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Core package and SSR host usage"
+      "purpose": "Core package and SSR host usage",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7353,7 +7368,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Core implementation boundaries"
+      "purpose": "Core implementation boundaries",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7368,7 +7386,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Lint gates"
+      "purpose": "Lint gates",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7413,7 +7434,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Unit and SSR test configuration"
+      "purpose": "Unit and SSR test configuration",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7428,7 +7452,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Browser journey configuration"
+      "purpose": "Browser journey configuration",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7623,7 +7650,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Path, package and server boundary enforcement"
+      "purpose": "Path, package and server boundary enforcement",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7698,7 +7728,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Reproducible CI gates"
+      "purpose": "Reproducible CI gates",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7713,7 +7746,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Pinned core path reservations"
+      "purpose": "Pinned core path reservations",
+      "modification_tasks": [
+        "F0.2"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7728,7 +7764,322 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Pinned layout rules"
+      "purpose": "Pinned layout rules",
+      "modification_tasks": [
+        "F0.2"
+      ]
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/openapi.xtrip-api-node.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/api-dependency-catalog.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/api-operation-exclusions.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/error-catalog.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/permission-catalog.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/pricing-presentation-contract.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/api-baseline.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-client/package.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-client/tsconfig.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-client/src/index.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-client/src/schema.generated.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-client/src/operations.generated.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-mocks/package.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-mocks/tsconfig.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-mocks/src/index.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-mocks/src/handlers.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/api-mocks/src/fixtures.generated.json",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "tools/generate-api.mjs",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "tools/check-api-contract.mjs",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/contract/api-client.spec.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/contract/api-mocks.spec.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/contract/pricing-contract.spec.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/ssr/api-client.spec.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/api-client-real.spec.ts",
+      "owner": "api-contract",
+      "task": "F0.2",
+      "route": null,
+      "journey": "generated-client-real-api",
+      "requirements": [
+        "NFR-01",
+        "NFR-04"
+      ],
+      "purpose": "F0.2 generated-client contract and integration foundation"
     }
   ]
 }

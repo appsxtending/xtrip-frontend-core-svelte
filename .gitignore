@@ -8,3 +8,9 @@ playwright-report/
 .env
 .env.*
 *.log
+
+packages/*/dist/
+
+.env*
+
+.kilo/

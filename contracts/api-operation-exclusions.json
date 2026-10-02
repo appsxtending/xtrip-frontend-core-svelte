@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "api_repository": "xtrip-api-node",
+  "api_commit": "542ed682c420d525631dbd53d42ef15d4421a9f8",
+  "policy": "Every implemented API operation absent from api-dependency-catalog.json must appear here with a non-UI classification. A frontend may never call an excluded operation merely because it is reachable over HTTP.",
+  "operations": [
+    {
+      "method": "GET",
+      "path": "/health/live",
+      "classification": "FRONTEND_INFRASTRUCTURE",
+      "reason": "Deployment/process probe only; never a product screen data source."
+    },
+    {
+      "method": "GET",
+      "path": "/health/ready",
+      "classification": "FRONTEND_INFRASTRUCTURE",
+      "reason": "Deployment/readiness probe only; never a product screen data source."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/audit/records",
+      "classification": "BACKEND_INTERNAL",
+      "reason": "The server appends audit facts. A browser must not author trusted audit records."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/compliance/attributes/store",
+      "classification": "BACKEND_SECURITY_INTERNAL",
+      "reason": "PII-vault write primitive; UI uses governed subject workflows rather than raw attribute storage."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/compliance/attributes/resolve",
+      "classification": "BACKEND_SECURITY_INTERNAL",
+      "reason": "PII-vault resolution primitive; ordinary UI routes must not retrieve raw vault attributes."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/compliance/keys/rotate",
+      "classification": "BACKEND_SECURITY_INTERNAL",
+      "reason": "Cryptographic key operation reserved for controlled backend operations."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/catalog/contracts/{contractId}/cache/warm",
+      "classification": "BACKEND_OPERATIONAL_INTERNAL",
+      "reason": "Cache maintenance follows publication and is not a user-authored product action."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/catalog/cache/invalidate",
+      "classification": "BACKEND_OPERATIONAL_INTERNAL",
+      "reason": "Cache invalidation is an operational side effect, not a frontend action."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/rules/availability/evaluate",
+      "classification": "BACKEND_ORCHESTRATION_INTERNAL",
+      "reason": "Availability evaluation is composed by search/booking; UI consumes the resulting offer state."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing/goldens/verify",
+      "classification": "BACKEND_TEST_INTERNAL",
+      "reason": "Golden verification is a release/conformance gate, not a production UI capability."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/inventory/holds/acquire",
+      "classification": "BACKEND_ORCHESTRATION_INTERNAL",
+      "reason": "Booking orchestration owns inventory holds; UI submits quote/booking intent."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/inventory/holds/commit",
+      "classification": "BACKEND_ORCHESTRATION_INTERNAL",
+      "reason": "Booking orchestration owns inventory holds; UI submits quote/booking intent."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/inventory/holds/release",
+      "classification": "BACKEND_ORCHESTRATION_INTERNAL",
+      "reason": "Booking orchestration owns inventory holds; UI submits quote/booking intent."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/inventory/cutoff/evaluate",
+      "classification": "BACKEND_ORCHESTRATION_INTERNAL",
+      "reason": "Cutoff evaluation is server policy used by availability/booking flows."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/bookings/idempotency/replay",
+      "classification": "BACKEND_ORCHESTRATION_INTERNAL",
+      "reason": "Idempotency replay is a server recovery primitive; UI retries the original idempotent action."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/bookings/sagas/start",
+      "classification": "BACKEND_ORCHESTRATION_INTERNAL",
+      "reason": "Booking creation starts orchestration; the UI must not start a second saga directly."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/suppliers/gateway/search",
+      "classification": "BACKEND_SUPPLIER_INTERNAL",
+      "reason": "Search orchestration calls the supplier gateway; UI calls governed search capabilities."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/suppliers/gateway/quote",
+      "classification": "BACKEND_SUPPLIER_INTERNAL",
+      "reason": "Quote orchestration calls the supplier gateway; UI calls governed quote capabilities."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/suppliers/gateway/book",
+      "classification": "BACKEND_SUPPLIER_INTERNAL",
+      "reason": "Booking orchestration calls the supplier gateway; UI calls governed booking capabilities."
+    },
+    {
+      "method": "POST",
+      "path": "/v1/suppliers/gateway/cancel",
+      "classification": "BACKEND_SUPPLIER_INTERNAL",
+      "reason": "Cancellation orchestration calls the supplier gateway; UI calls governed cancellation capabilities."
+    }
+  ]
+}

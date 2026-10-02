@@ -1,4 +1,4 @@
-name: Foundation gates
+name: Core frontend gates
 on: [push, pull_request]
 permissions:
   contents: read
@@ -13,11 +13,24 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - run: npm run verify
+      - name: Generated artifacts and canonical schema acceptance
+        run: npm run check:api
+      - name: Lint and strict typechecks
+        if: ${{ !cancelled() }}
+        run: npm run lint && npm run check
+      - name: Unit, contract and SSR tests
+        if: ${{ !cancelled() }}
+        run: npm test
+      - name: Production package and SSR builds
+        if: ${{ !cancelled() }}
+        run: npm run build
+      - name: Foundation browser regression
+        if: ${{ !cancelled() }}
+        run: npm run test:e2e
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: foundation-evidence
+          name: core-evidence
           path: |
             playwright-report
             test-results

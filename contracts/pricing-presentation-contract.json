@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://xtrip.example/frontend/pricing-presentation-contract.json",
+  "version": "1.0.0",
+  "source_contract": "xtrip-node@54ba0ba:contracts/pricing-engine-contract.json",
+  "authority": "Frontend-observable pricing, rule, promotion, breakdown and drift behavior. Exact HTTP operationIds remain bound only from the pinned canonical OpenAPI at F0.2.",
+  "prohibitions": [
+    "No frontend, SSR loader/action, hook, store or component recalculates prices, taxes, FX, discounts, commissions, rounding or promotion budgets.",
+    "No frontend infers hidden tenant commercial lines from public totals.",
+    "No client supplies a trusted pipeline stage, price signature, tax result, FX snapshot, promotion reservation state or booking channel.",
+    "No missing OpenAPI operation or response field may be invented from this presentation contract."
+  ],
+  "canonical_pipeline": [
+    {"stage":1,"code":"ELIGIBILITY_OCCUPANCY","label_key":"pricing.stage.eligibility_occupancy","money_mutation":false},
+    {"stage":2,"code":"PAX_AND_UNITS","label_key":"pricing.stage.pax_and_units","money_mutation":false},
+    {"stage":3,"code":"BASE_RATE","label_key":"pricing.stage.base_rate","money_mutation":true},
+    {"stage":4,"code":"OCCUPANCY_PRICING","label_key":"pricing.stage.occupancy_pricing","money_mutation":true},
+    {"stage":5,"code":"STAY_PAY_PACKAGE","label_key":"pricing.stage.stay_pay_package","money_mutation":true},
+    {"stage":6,"code":"PRODUCT_PROMOTIONS","label_key":"pricing.stage.product_promotions","money_mutation":true},
+    {"stage":7,"code":"CHARGES_AND_SERVICES","label_key":"pricing.stage.charges_services","money_mutation":true},
+    {"stage":8,"code":"AGGREGATE_ADJUSTMENTS_NET","label_key":"pricing.stage.aggregate_adjustments_net","money_mutation":true},
+    {"stage":9,"code":"MARKUP_COMMISSION","label_key":"pricing.stage.markup_commission","money_mutation":true},
+    {"stage":10,"code":"MARKET_NATIONALITY","label_key":"pricing.stage.market_nationality","money_mutation":true},
+    {"stage":11,"code":"FX","label_key":"pricing.stage.fx","money_mutation":true},
+    {"stage":12,"code":"TAX_TOTAL_SIGNATURE","label_key":"pricing.stage.tax_total_signature","money_mutation":true}
+  ],
+  "price_result": {
+    "required": ["pipeline_version","signature_version","signature","currency","lines","totals"],
+    "decimal_fields": "Strings only; never parse through JavaScript number.",
+    "line_required": ["line_id","stage","code","label_key","amount","currency","visibility"],
+    "line_optional": ["service_date","unit_key","quantity","source_kind","source_id","source_version","rule_id","promotion_id","tax_category","allocation_of_line_id","reversal_of_line_id","metadata"],
+    "totals_required": ["supplier_net","sell_net","inclusive_tax","exclusive_tax","sell_gross"],
+    "reconciliation": "Visible projected lines and totals must reconcile exactly as returned. The UI may group lines but never changes signed amounts.",
+    "signature_display": "Show a shortened copyable reference to authorized tenant users; do not expose signature internals to public consumers."
+  },
+  "principal_projections": {
+    "TENANT": {"visible":["supplier net","markup","commission","market/nationality adjustments","FX evidence","taxes/fees","sell gross","rule suppression trace"],"permission":"pricing:read"},
+    "AGENT": {"visible":["agent buy price","public discounts/charges/services","FX when relevant","taxes/fees","sell gross"],"forbidden":["tenant supplier net","tenant markup layers","tenant margin floor","other-agent commission"],"permission":"quote:read or booking:read"},
+    "CONSUMER": {"visible":["public price","public promotion","selected services","taxes/fees","payable total"],"forbidden":["supplier net","tenant markup","agent buy price","commission","internal rule trace"]}
+  },
+  "workspaces": {
+    "pricing_policy": {"route":"/settings/pricing","permission_read":"pricing:read","permission_write":"pricing:write","permission_publish":"pricing:publish","tabs":["Overview","Markup","Commission","FX","Tax","Rounding","Versions","Audit"],"lifecycle":["DRAFT","VALIDATED","PUBLISHED","INACTIVE","ARCHIVED"],"rules":["A published version is read-only; edit forks a draft.","Validate returns field, cross-field and ordering diagnostics without publishing.","Preview compares current published and candidate results using representative inputs.","Publish requires explicit confirmation of affected scopes and signature-version consequences.","Stale revision never auto-merges or auto-retries a publish."]},
+    "rules": {"routes":["/rules","/rules/:ruleId/simulate"],"permissions":["rule:read","rule:write","rule:publish"],"required_authoring":["scope","booking window","travel window","selling-day mask","conditions","typed effects","priority","stacking group/mode","effective interval"],"simulation":["input summary","all twelve stages","fired effects","suppressed effects with reasons","ordered lines","totals","signature"]},
+    "promotions": {"route":"/promotions","permissions":["promotion:read","promotion:write","promotion:publish"],"lifecycle":["DRAFT","VALIDATED","PUBLISHED","ACTIVE","PAUSED","EXPIRED","ARCHIVED"],"required_authoring":["booking window","travel window","selling-day mask","channel","market","agent","product/option/rate-plan","code requirement","benefit and eligible base","stacking group/priority","usage cap","monetary budget/currency","per-subject caps","cancellation release policy"],"budget_display":"Server-returned reserved/consumed/remaining count and amount facts with last-updated/revision; the UI never predicts a successful reservation.","redemption_states":["RESERVED","CONSUMED","RELEASED","EXPIRED","REVERSED"]},
+    "offer_quote_booking": {"rules":["Search, offer, quote, booking, amendment and cancellation display server-calculated results from the same evaluator.","Every offer/quote/booking price uses one reusable breakdown component with principal projection.","Revalidation compares signatures and renders added, removed and changed lines plus rate/rule/promotion/FX/tax reasons.","Acceptance of price drift is an explicit server mutation with actor/time evidence; closing a dialog is not acceptance.","Cancellation/refund views render reversal/allocation lines from the original snapshot and do not recompute historical price locally."]}
+  },
+  "api_capabilities": ["pricing.policy-list-detail","pricing.policy-validate","pricing.policy-publish","pricing.preview","rules.lifecycle","rules.simulate-price","promotion.lifecycle-budget","promotion.validate-publish","price.breakdown-detail","price.drift-diff"],
+  "failure_presentations": {
+    "PRICING_INPUT_INCOMPLETE":"Field/page validation summary; preserve the draft and focus the first actionable issue.",
+    "PRICING_POLICY_INVALID":"Structured policy diagnostics; do not offer publish.",
+    "PRICING_EFFECT_CONFLICT":"Show conflicting effect/group references and simulation trace.",
+    "PRICING_CONFIG_STALE":"Show current version and candidate version; require reload, compare and explicit retry.",
+    "PRICING_PIPELINE_VERSION_UNSUPPORTED":"Terminal compatibility state with refresh/support action; never approximate a price.",
+    "PROMOTION_INVALID":"Show a non-enumerating eligibility reason appropriate to the principal.",
+    "PROMOTION_BUDGET_EXCEEDED":"Remove the benefit through server revalidation and show a price-drift decision if total changed.",
+    "FX_RATE_UNAVAILABLE":"Retryable only when the canonical error says so; never substitute 1.0.",
+    "TAX_POLICY_INVALID":"Tenant authoring diagnostic; public views receive the canonical safe message.",
+    "TAX_POLICY_UNAVAILABLE":"Block price acceptance/booking and preserve recoverable state.",
+    "ROUNDING_POLICY_INVALID":"Tenant authoring diagnostic; do not round in the UI.",
+    "PRICE_CHANGED":"Render the canonical structural diff and require explicit acceptance."
+  },
+  "mandatory_mock_matrix": ["all twelve stages with deterministic skipped reasons","tenant/agent/consumer projections over the same signed result","stay-pay plus promotion plus mandatory charge","markup plus commission plus nationality adjustment","direct/inverse/cross FX evidence","inclusive/exclusive/parallel/compound tax and rounding remainder","promotion valid/invalid/exhausted/reserved/consumed/released","unchanged and structurally changed price signatures","loading/empty/stale/retryable/terminal/forbidden/not-found for every workspace","English, Arabic RTL, Thai, long-text, keyboard, screen-reader and narrow viewport"]
+}

@@ -5,6 +5,7 @@ import { expect, it } from 'vitest';
 const root = process.cwd();
 const ignored = new Set([
   '.git',
+  '.kilo',
   'node_modules',
   '.svelte-kit',
   'dist',
@@ -14,7 +15,7 @@ const ignored = new Set([
 ]);
 function files(directory: string, prefix = ''): string[] {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-    if (ignored.has(entry.name)) return [];
+    if (ignored.has(entry.name) || entry.name.startsWith('.env')) return [];
     const name = prefix + entry.name;
     return entry.isDirectory() ? files(join(directory, entry.name), name + '/') : [name];
   });
@@ -30,7 +31,7 @@ it('allows only exact reserved files and public package boundaries', () => {
   for (const path of files(join(root, 'src'), 'src/').filter((p) => /\.(ts|svelte)$/.test(p))) {
     const source = readFileSync(path, 'utf8');
     expect(source).not.toMatch(
-      /xtrip-api-node|xtrip-(tenant-web|agent-portal|admin-web|b2c-storefront)|fetch\s*\(|axios|@melt-ui/,
+      /xtrip-api-node|xtrip-(tenant-web|agent-portal|admin-web|b2c-storefront)|fetch\s*\(|axios|@melt-ui|@xtrip\/api-|packages\/api-/,
     );
     expect(source).not.toMatch(/\{@html|localStorage|sessionStorage/);
   }

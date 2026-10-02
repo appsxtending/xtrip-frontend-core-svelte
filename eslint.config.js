@@ -5,7 +5,10 @@ import globals from 'globals';
 export default ts.config(
   {
     ignores: [
-      'node_modules/**',
+      '**/node_modules/**',
+      '.kilo/**',
+      'packages/*/dist/**',
+      '**/*.generated.ts',
       '.svelte-kit/**',
       'build/**',
       'dist/**',

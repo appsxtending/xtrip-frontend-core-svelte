@@ -1,0 +1,32 @@
+{
+  "catalog_version": "1.3.0",
+  "identifier_pattern": "^[a-z][a-z0-9_]*(?::[a-z][a-z0-9_]*)+$",
+  "wildcards_authoritative": false,
+  "permissions": [
+    {"id":"agent:read","scope":"TENANT"},{"id":"agent:write","scope":"TENANT"},{"id":"agent_user:manage","scope":"AGENT"},
+    {"id":"announcement:manage","scope":"PLATFORM"},{"id":"api_key:manage","scope":"AGENT"},{"id":"audit:read","scope":"TENANT"},
+    {"id":"booking:amend","scope":"TENANT"},{"id":"booking:cancel","scope":"TENANT"},{"id":"booking:create","scope":"AGENT"},{"id":"booking:read","scope":"TENANT_OR_AGENT"},
+    {"id":"booking_number:publish","scope":"TENANT"},{"id":"booking_number:read","scope":"TENANT"},{"id":"booking_number:write","scope":"TENANT"},
+    {"id":"branding:agent_override","scope":"TENANT"},{"id":"branding:publish","scope":"TENANT"},{"id":"branding:read","scope":"TENANT"},{"id":"branding:rollback","scope":"TENANT"},{"id":"branding:write","scope":"TENANT"},
+    {"id":"contract:archive","scope":"TENANT"},{"id":"contract:import","scope":"TENANT"},{"id":"contract:publish","scope":"TENANT"},{"id":"contract:read","scope":"TENANT"},{"id":"contract:write","scope":"TENANT"},
+    {"id":"dispatch:manage","scope":"TENANT"},{"id":"finance:read","scope":"TENANT_OR_AGENT"},{"id":"finance:write","scope":"TENANT"},
+    {"id":"inventory:read","scope":"TENANT"},{"id":"inventory:write","scope":"TENANT"},{"id":"invoice:read","scope":"TENANT_OR_AGENT"},{"id":"invoice:write","scope":"TENANT"},
+    {"id":"mapping:read","scope":"TENANT"},{"id":"mapping:write","scope":"TENANT"},
+    {"id":"market:archive","scope":"TENANT"},{"id":"market:assign","scope":"TENANT"},{"id":"market:publish","scope":"TENANT"},{"id":"market:read","scope":"TENANT"},{"id":"market:write","scope":"TENANT"},
+    {"id":"masterdata:archive","scope":"PLATFORM_OR_TENANT"},{"id":"masterdata:map","scope":"PLATFORM_OR_TENANT"},{"id":"masterdata:publish","scope":"PLATFORM_OR_TENANT"},{"id":"masterdata:read","scope":"PLATFORM_OR_TENANT"},{"id":"masterdata:write","scope":"PLATFORM_OR_TENANT"},
+    {"id":"migration:manage","scope":"TENANT"},{"id":"notification:read","scope":"TENANT_OR_AGENT"},{"id":"notification:write","scope":"TENANT_OR_AGENT"},
+    {"id":"notification:smtp:read","scope":"TENANT"},{"id":"notification:smtp:write","scope":"TENANT"},{"id":"notification:smtp:test","scope":"TENANT"},{"id":"notification:smtp:activate","scope":"TENANT"},
+    {"id":"notification:routing:read","scope":"TENANT"},{"id":"notification:routing:write","scope":"TENANT"},{"id":"notification:routing:publish","scope":"TENANT"},
+    {"id":"notification:template:read","scope":"TENANT"},{"id":"notification:template:write","scope":"TENANT"},{"id":"notification:template:publish","scope":"TENANT"},{"id":"notification:template:archive","scope":"TENANT"},
+    {"id":"notification:delivery:read","scope":"TENANT"},{"id":"notification:delivery:replay","scope":"TENANT"},
+    {"id":"payment:create","scope":"TENANT_OR_AGENT"},{"id":"payment:read","scope":"TENANT_OR_AGENT"},{"id":"payment:write","scope":"TENANT"},
+    {"id":"operation:read","scope":"TENANT"},{"id":"plan:manage","scope":"PLATFORM"},{"id":"platform:impersonate","scope":"PLATFORM"},{"id":"platform:ops","scope":"PLATFORM"},
+    {"id":"product:activate","scope":"TENANT"},{"id":"product:archive","scope":"TENANT"},{"id":"product:read","scope":"TENANT"},{"id":"product:write","scope":"TENANT"},
+    {"id":"pricing:evaluate","scope":"TENANT_OR_AGENT"},{"id":"pricing:preview","scope":"TENANT"},{"id":"pricing:publish","scope":"TENANT"},{"id":"pricing:read","scope":"TENANT"},{"id":"pricing:write","scope":"TENANT"},
+    {"id":"search:saved:read","scope":"TENANT_OR_AGENT"},{"id":"search:saved:write","scope":"TENANT_OR_AGENT"},
+    {"id":"promotion:publish","scope":"TENANT"},{"id":"promotion:read","scope":"TENANT"},{"id":"promotion:write","scope":"TENANT"},
+    {"id":"quote:create","scope":"AGENT"},{"id":"quote:read","scope":"TENANT_OR_AGENT"},{"id":"report:margin","scope":"TENANT"},{"id":"report:read","scope":"TENANT"},
+    {"id":"rule:publish","scope":"TENANT"},{"id":"rule:read","scope":"TENANT"},{"id":"rule:write","scope":"TENANT"},{"id":"tenant:manage","scope":"TENANT"},{"id":"tenant:read","scope":"PLATFORM"},{"id":"user:manage","scope":"TENANT"},
+    {"id":"supplier_plugin:certify","scope":"PLATFORM"},{"id":"supplier_plugin:manage","scope":"PLATFORM"},{"id":"supplier_plugin:read","scope":"PLATFORM"}
+  ]
+}
