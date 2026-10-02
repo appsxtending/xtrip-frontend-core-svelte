@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "stack": "svelte",
+  "repositories": [
+    "xtrip-frontend-core-svelte",
+    "xtrip-tenant-web-svelte",
+    "xtrip-agent-portal-svelte",
+    "xtrip-admin-web-svelte",
+    "xtrip-b2c-storefront-svelte"
+  ],
+  "required_roots": [
+    "src",
+    "static",
+    "test",
+    "e2e"
+  ],
+  "forbidden_directories": [
+    "common",
+    "shared",
+    "helpers",
+    "utils",
+    "services",
+    "stores",
+    "components"
+  ],
+  "server_only_patterns": [
+    "*.server.ts",
+    "+page.server.ts",
+    "+layout.server.ts",
+    "hooks.server.ts"
+  ],
+  "rules": [
+    "Component APIs are SSR-safe and may not access browser globals during module initialization or server render.",
+    "The shared UI workbench renders every component across theme, direction, density, viewport and remote-data state matrices.",
+    "Application code cannot import the underlying headless component vendor directly.",
+    "No generic components, utils, helpers, services, stores or common dumping folders are permitted.",
+    "Feature folders own routes, view models, query definitions, interactions and tests; cross-feature imports use public package seams.",
+    "Responsive behavior is a deliberate transformation, not horizontal scaling of desktop screens.",
+    "Data grids provide accessible sorting, filtering, pagination/virtualization, density and card transformation on narrow screens.",
+    "Forms provide server/client error association, summary focus, dirty guards, save progress and conflict recovery.",
+    "Charts have table alternatives, text summaries and non-color-only encoding.",
+    "F0.1 core bootstrap files are exact reservations owned by foundation; src/lib/index.ts is the library seam and src/routes is the SSR workbench, not a business application."
+  ],
+  "scoped_directory_exceptions": [
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "directory": "src/components",
+      "owner": "ui-kit",
+      "condition": "Only named component families with exact paths reserved in repository-file-catalog.json; application repositories retain the generic components-directory ban."
+    }
+  ]
+}
