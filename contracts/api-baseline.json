@@ -10,5 +10,6 @@
     "error-catalog.json": "c59971a39361b7095644b87af5256bb4b6c63b71505faaa13b469560c6ca482b",
     "permission-catalog.json": "9a78582b4d6faaf2581bef77fec661aeeef354f7445de00a82fbe1584c6cbd46",
     "pricing-presentation-contract.json": "15df9ab33c806614810c7616d6beef8709d1ed5adfd0ec60fda919e668ddfd64"
-  }
+  },
+  "hashAlgorithm": "SHA-256 over UTF-8 normalized to LF"
 }

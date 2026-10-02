@@ -9,7 +9,10 @@ const read = async (path) => JSON.parse(await readFile(new URL(path, root), 'utf
 const spec = await read('contracts/openapi.xtrip-api-node.json');
 const baseline = await read('contracts/api-baseline.json');
 for (const [name, hash] of Object.entries(baseline.artifacts)) {
-  const bytes = await readFile(new URL(`contracts/${name}`, root));
+  const bytes = (await readFile(new URL(`contracts/${name}`, root), 'utf8')).replace(
+    /\r\n?/g,
+    '\n',
+  );
   if (createHash('sha256').update(bytes).digest('hex') !== hash)
     throw new Error(`Pinned contract drift: ${name}`);
 }

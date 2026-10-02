@@ -24,7 +24,7 @@ Acceptance on 2026-10-02: real contract equality, anonymous geography rejection,
 
 ## Canonical contract blocker
 
-F0.2 is **not complete**. The strict gate validates 2,436 frontend-consumed canonical examples and reports **91 JSON Schema diagnostics across 25 examples and 16 operations**. Diagnostic count includes failed `oneOf` branches; it is not a count of distinct defective examples. The original byte-pinned contracts and examples are preserved. `npm run check:api` and therefore `npm run verify` intentionally return nonzero until a corrected upstream baseline is approved and pinned.
+F0.2 is **not complete**. The strict gate validates 2,436 frontend-consumed canonical examples and reports **91 JSON Schema diagnostics across 25 examples and 16 operations**. Diagnostic count includes failed `oneOf` branches; it is not a count of distinct defective examples. The original contracts and examples are preserved. Product contract hashes normalize UTF-8 text to LF so Git checkout line endings cannot create false drift. `npm run check:api` and therefore `npm run verify` intentionally return nonzero until a corrected upstream baseline is approved and pinned.
 
 - `GET /v1/public/checkouts/{checkoutId}` and `GET /v1/public/payments/return`: their `202` examples contain status 202, while the referenced problem schema requires status >= 400.
 - Saved-search error examples: POST collection 409; GET item 404; PUT item 404/409; DELETE item 404; POST item execute 404. These omit required `detail`, `message_key` and `timestamp`.
