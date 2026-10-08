@@ -1,6 +1,6 @@
 {
   "name": "@xtrip/ui-svelte",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -12,19 +12,21 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "types": "./dist/lib/index.d.ts",
+      "svelte": "./dist/lib/index.js",
+      "default": "./dist/lib/index.js"
     }
   },
   "files": [
-    "dist/index.js",
-    "dist/index.d.ts"
+    "dist/lib/index.js",
+    "dist/lib/index.d.ts",
+    "dist/components"
   ],
   "scripts": {
     "dev": "vite dev --host 127.0.0.1 --port 5173",
-    "build": "npm run build:packages && vite build && svelte-package",
+    "build": "npm run build:packages && vite build && svelte-package -i src -o dist",
     "start": "node build",
-    "prepare": "svelte-kit sync",
+    "prepare": "npm run build:packages && svelte-kit sync",
     "check": "npm run check:packages && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
@@ -75,5 +77,10 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@melt-ui/svelte": "0.86.6",
+    "@xtrip/design-tokens": "0.1.0",
+    "@xtrip/i18n": "0.1.0"
+  }
 }

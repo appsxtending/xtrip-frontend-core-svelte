@@ -31,9 +31,10 @@ it('allows only exact reserved files and public package boundaries', () => {
   for (const path of files(join(root, 'src'), 'src/').filter((p) => /\.(ts|svelte)$/.test(p))) {
     const source = readFileSync(path, 'utf8');
     expect(source).not.toMatch(
-      /xtrip-api-node|xtrip-(tenant-web|agent-portal|admin-web|b2c-storefront)|fetch\s*\(|axios|@melt-ui|@xtrip\/api-|packages\/api-/,
+      /xtrip-api-node|xtrip-(tenant-web|agent-portal|admin-web|b2c-storefront)|fetch\s*\(|axios|@xtrip\/api-|packages\/api-/,
     );
     expect(source).not.toMatch(/\{@html|localStorage|sessionStorage/);
+    if (!path.startsWith('src/components/')) expect(source).not.toContain('@melt-ui');
   }
   expect(readFileSync('src/lib/index.ts', 'utf8')).not.toMatch(/\.server|ssr\//);
 });

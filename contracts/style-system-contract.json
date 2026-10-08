@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "stack": "svelte",
+  "framework": "SvelteKit 3 / Svelte 5",
+  "utility_engine": {
+    "package": "tailwindcss",
+    "major": 4,
+    "integration_package": "@tailwindcss/vite",
+    "runtime": "build-time only",
+    "cdn": false
+  },
+  "primitive_tokens": {
+    "package": "open-props",
+    "runtime": "CSS custom properties compiled into the application stylesheet",
+    "cdn": false
+  },
+  "pipeline": [
+    "Open Props primitives",
+    "XTrip semantic CSS custom properties",
+    "Tailwind theme utilities",
+    "Svelte components"
+  ],
+  "entry_file": "src/app.css",
+  "vite_plugin_order": [
+    "@tailwindcss/vite",
+    "@sveltejs/kit/vite"
+  ],
+  "application_may_use": [
+    "governed semantic Tailwind utilities",
+    "whitelisted XTrip semantic CSS custom properties",
+    "approved component-scoped CSS for behavior not expressible through utilities"
+  ],
+  "forbidden": [
+    "raw Open Props variables outside the token bridge",
+    "Tailwind raw palette utilities",
+    "Tailwind arbitrary-value utilities without an approved exception",
+    "runtime-generated or concatenated class names",
+    "Tailwind CDN or Open Props CDN",
+    "tenant-provided CSS, HTML or JavaScript",
+    "physical left/right styling when logical properties apply",
+    "a second global stylesheet"
+  ],
+  "theming": {
+    "tenant_input": "validated semantic token values and safe assets only",
+    "application": "root data-theme/data-direction attributes and semantic custom-property overrides",
+    "rebuild_required": false
+  },
+  "required_tests": [
+    "Tailwind production extraction and CSS-size budget",
+    "no forbidden arbitrary utilities or dynamic class fragments",
+    "light/dark tenant token mapping",
+    "LTR/RTL logical layout",
+    "forced-colors and reduced-motion",
+    "SSR direct-load with deterministic stylesheet and no flash of unthemed content"
+  ]
+}

@@ -5780,7 +5780,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for app-shell"
+      "purpose": "Governed UI-kit artifact for app-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5792,7 +5793,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for app-shell"
+      "purpose": "Governed UI-kit artifact for app-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5804,7 +5806,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for app-shell"
+      "purpose": "Governed UI-kit artifact for app-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5816,7 +5819,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for command-palette"
+      "purpose": "Governed UI-kit artifact for command-palette",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5828,7 +5832,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for command-palette"
+      "purpose": "Governed UI-kit artifact for command-palette",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5840,7 +5845,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for command-palette"
+      "purpose": "Governed UI-kit artifact for command-palette",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5852,7 +5858,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for button"
+      "purpose": "Governed UI-kit artifact for button",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5864,7 +5871,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for button"
+      "purpose": "Governed UI-kit artifact for button",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5876,7 +5884,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for button"
+      "purpose": "Governed UI-kit artifact for button",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5888,7 +5897,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for link"
+      "purpose": "Governed UI-kit artifact for link",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5900,7 +5910,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for link"
+      "purpose": "Governed UI-kit artifact for link",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5912,7 +5923,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for link"
+      "purpose": "Governed UI-kit artifact for link",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5924,7 +5936,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for menu"
+      "purpose": "Governed UI-kit artifact for menu",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5936,7 +5949,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for menu"
+      "purpose": "Governed UI-kit artifact for menu",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5948,7 +5962,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for menu"
+      "purpose": "Governed UI-kit artifact for menu",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5960,7 +5975,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for dialog"
+      "purpose": "Governed UI-kit artifact for dialog",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5972,7 +5988,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for dialog"
+      "purpose": "Governed UI-kit artifact for dialog",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5984,7 +6001,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for dialog"
+      "purpose": "Governed UI-kit artifact for dialog",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -5996,7 +6014,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for drawer"
+      "purpose": "Governed UI-kit artifact for drawer",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6008,7 +6027,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for drawer"
+      "purpose": "Governed UI-kit artifact for drawer",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6020,7 +6040,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for drawer"
+      "purpose": "Governed UI-kit artifact for drawer",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6032,7 +6053,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for popover"
+      "purpose": "Governed UI-kit artifact for popover",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6044,7 +6066,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for popover"
+      "purpose": "Governed UI-kit artifact for popover",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6056,7 +6079,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for popover"
+      "purpose": "Governed UI-kit artifact for popover",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6068,7 +6092,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for tabs"
+      "purpose": "Governed UI-kit artifact for tabs",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6080,7 +6105,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for tabs"
+      "purpose": "Governed UI-kit artifact for tabs",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6092,7 +6118,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for tabs"
+      "purpose": "Governed UI-kit artifact for tabs",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6104,7 +6131,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for form-field"
+      "purpose": "Governed UI-kit artifact for form-field",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6116,7 +6144,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for form-field"
+      "purpose": "Governed UI-kit artifact for form-field",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6128,7 +6157,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for form-field"
+      "purpose": "Governed UI-kit artifact for form-field",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6140,7 +6170,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for error-summary"
+      "purpose": "Governed UI-kit artifact for error-summary",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6152,7 +6183,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for error-summary"
+      "purpose": "Governed UI-kit artifact for error-summary",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6164,7 +6196,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for error-summary"
+      "purpose": "Governed UI-kit artifact for error-summary",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6176,7 +6209,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for date-picker"
+      "purpose": "Governed UI-kit artifact for date-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6188,7 +6222,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for date-picker"
+      "purpose": "Governed UI-kit artifact for date-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6200,7 +6235,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for date-picker"
+      "purpose": "Governed UI-kit artifact for date-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6212,7 +6248,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for date-range-picker"
+      "purpose": "Governed UI-kit artifact for date-range-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6224,7 +6261,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for date-range-picker"
+      "purpose": "Governed UI-kit artifact for date-range-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6236,7 +6274,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for date-range-picker"
+      "purpose": "Governed UI-kit artifact for date-range-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6248,7 +6287,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for occupancy-editor"
+      "purpose": "Governed UI-kit artifact for occupancy-editor",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6260,7 +6300,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for occupancy-editor"
+      "purpose": "Governed UI-kit artifact for occupancy-editor",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6272,7 +6313,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for occupancy-editor"
+      "purpose": "Governed UI-kit artifact for occupancy-editor",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6284,7 +6326,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for market-picker"
+      "purpose": "Governed UI-kit artifact for market-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6296,7 +6339,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for market-picker"
+      "purpose": "Governed UI-kit artifact for market-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6308,7 +6352,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for market-picker"
+      "purpose": "Governed UI-kit artifact for market-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6320,7 +6365,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for geography-picker"
+      "purpose": "Governed UI-kit artifact for geography-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6332,7 +6378,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for geography-picker"
+      "purpose": "Governed UI-kit artifact for geography-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6344,7 +6391,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for geography-picker"
+      "purpose": "Governed UI-kit artifact for geography-picker",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6356,7 +6404,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for data-grid"
+      "purpose": "Governed UI-kit artifact for data-grid",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6368,7 +6417,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for data-grid"
+      "purpose": "Governed UI-kit artifact for data-grid",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6380,7 +6430,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for data-grid"
+      "purpose": "Governed UI-kit artifact for data-grid",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6392,7 +6443,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for responsive-record-list"
+      "purpose": "Governed UI-kit artifact for responsive-record-list",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6404,7 +6456,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for responsive-record-list"
+      "purpose": "Governed UI-kit artifact for responsive-record-list",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6416,7 +6469,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for responsive-record-list"
+      "purpose": "Governed UI-kit artifact for responsive-record-list",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6428,7 +6482,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for bulk-action-bar"
+      "purpose": "Governed UI-kit artifact for bulk-action-bar",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6440,7 +6495,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for bulk-action-bar"
+      "purpose": "Governed UI-kit artifact for bulk-action-bar",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6452,7 +6508,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for bulk-action-bar"
+      "purpose": "Governed UI-kit artifact for bulk-action-bar",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6464,7 +6521,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for rate-grid"
+      "purpose": "Governed UI-kit artifact for rate-grid",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6476,7 +6534,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for rate-grid"
+      "purpose": "Governed UI-kit artifact for rate-grid",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6488,7 +6547,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for rate-grid"
+      "purpose": "Governed UI-kit artifact for rate-grid",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6500,7 +6560,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for remote-state"
+      "purpose": "Governed UI-kit artifact for remote-state",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6512,7 +6573,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for remote-state"
+      "purpose": "Governed UI-kit artifact for remote-state",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6524,7 +6586,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for remote-state"
+      "purpose": "Governed UI-kit artifact for remote-state",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6536,7 +6599,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for skeleton"
+      "purpose": "Governed UI-kit artifact for skeleton",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6548,7 +6612,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for skeleton"
+      "purpose": "Governed UI-kit artifact for skeleton",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6560,7 +6625,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for skeleton"
+      "purpose": "Governed UI-kit artifact for skeleton",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6572,7 +6638,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for status-chip"
+      "purpose": "Governed UI-kit artifact for status-chip",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6584,7 +6651,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for status-chip"
+      "purpose": "Governed UI-kit artifact for status-chip",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6596,7 +6664,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for status-chip"
+      "purpose": "Governed UI-kit artifact for status-chip",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6608,7 +6677,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for deadline-chip"
+      "purpose": "Governed UI-kit artifact for deadline-chip",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6620,7 +6690,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for deadline-chip"
+      "purpose": "Governed UI-kit artifact for deadline-chip",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6632,7 +6703,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for deadline-chip"
+      "purpose": "Governed UI-kit artifact for deadline-chip",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6644,7 +6716,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for money"
+      "purpose": "Governed UI-kit artifact for money",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6656,7 +6729,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for money"
+      "purpose": "Governed UI-kit artifact for money",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6668,7 +6742,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for money"
+      "purpose": "Governed UI-kit artifact for money",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6680,7 +6755,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for drift-diff"
+      "purpose": "Governed UI-kit artifact for drift-diff",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6692,7 +6768,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for drift-diff"
+      "purpose": "Governed UI-kit artifact for drift-diff",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6704,7 +6781,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for drift-diff"
+      "purpose": "Governed UI-kit artifact for drift-diff",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6716,7 +6794,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for timeline"
+      "purpose": "Governed UI-kit artifact for timeline",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6728,7 +6807,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for timeline"
+      "purpose": "Governed UI-kit artifact for timeline",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6740,7 +6820,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for timeline"
+      "purpose": "Governed UI-kit artifact for timeline",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6752,7 +6833,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for document-status"
+      "purpose": "Governed UI-kit artifact for document-status",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6764,7 +6846,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for document-status"
+      "purpose": "Governed UI-kit artifact for document-status",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6776,7 +6859,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for document-status"
+      "purpose": "Governed UI-kit artifact for document-status",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6788,7 +6872,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for notification-center"
+      "purpose": "Governed UI-kit artifact for notification-center",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6800,7 +6885,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for notification-center"
+      "purpose": "Governed UI-kit artifact for notification-center",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6812,7 +6898,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for notification-center"
+      "purpose": "Governed UI-kit artifact for notification-center",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6824,7 +6911,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for theme-provider"
+      "purpose": "Governed UI-kit artifact for theme-provider",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6836,7 +6924,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for theme-provider"
+      "purpose": "Governed UI-kit artifact for theme-provider",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6848,7 +6937,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for theme-provider"
+      "purpose": "Governed UI-kit artifact for theme-provider",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6860,7 +6950,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for chart-shell"
+      "purpose": "Governed UI-kit artifact for chart-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6872,7 +6963,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for chart-shell"
+      "purpose": "Governed UI-kit artifact for chart-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6884,7 +6976,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for chart-shell"
+      "purpose": "Governed UI-kit artifact for chart-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6896,7 +6989,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for map-shell"
+      "purpose": "Governed UI-kit artifact for map-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6908,7 +7002,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for map-shell"
+      "purpose": "Governed UI-kit artifact for map-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6920,7 +7015,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for map-shell"
+      "purpose": "Governed UI-kit artifact for map-shell",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6932,7 +7028,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for calendar"
+      "purpose": "Governed UI-kit artifact for calendar",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6944,7 +7041,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for calendar"
+      "purpose": "Governed UI-kit artifact for calendar",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6956,7 +7054,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for calendar"
+      "purpose": "Governed UI-kit artifact for calendar",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6968,7 +7067,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for file-import-review"
+      "purpose": "Governed UI-kit artifact for file-import-review",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6980,7 +7080,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for file-import-review"
+      "purpose": "Governed UI-kit artifact for file-import-review",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -6992,7 +7093,8 @@
         "FR-204",
         "FR-206"
       ],
-      "purpose": "Governed UI-kit artifact for file-import-review"
+      "purpose": "Governed UI-kit artifact for file-import-review",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -7120,7 +7222,8 @@
       "requirements": [
         "FR-085"
       ],
-      "purpose": "Principal-aware calculation-free ordered price-line and totals presentation."
+      "purpose": "Principal-aware calculation-free ordered price-line and totals presentation.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7131,7 +7234,8 @@
       "requirements": [
         "FR-085"
       ],
-      "purpose": "Decimal, reconciliation, visibility, RTL and accessibility contract tests."
+      "purpose": "Decimal, reconciliation, visibility, RTL and accessibility contract tests.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7143,7 +7247,8 @@
         "FR-085",
         "FR-088"
       ],
-      "purpose": "All-stage and tenant/agent/consumer price projection fixtures."
+      "purpose": "All-stage and tenant/agent/consumer price projection fixtures.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7155,7 +7260,8 @@
         "FR-086",
         "FR-109"
       ],
-      "purpose": "Accessible server-returned added/removed/changed price-line comparison."
+      "purpose": "Accessible server-returned added/removed/changed price-line comparison.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7167,7 +7273,8 @@
         "FR-086",
         "FR-109"
       ],
-      "purpose": "Structural drift, focus, RTL and explicit-acceptance interaction tests."
+      "purpose": "Structural drift, focus, RTL and explicit-acceptance interaction tests.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7179,7 +7286,8 @@
         "FR-086",
         "FR-109"
       ],
-      "purpose": "Rate/rule/promotion/FX/tax drift fixture matrix."
+      "purpose": "Rate/rule/promotion/FX/tax drift fixture matrix.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7192,7 +7300,8 @@
         "FR-078",
         "FR-088"
       ],
-      "purpose": "Canonical twelve-stage fired/suppressed/skipped explanation trace."
+      "purpose": "Canonical twelve-stage fired/suppressed/skipped explanation trace.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7205,7 +7314,8 @@
         "FR-078",
         "FR-088"
       ],
-      "purpose": "Stage-order, explanation, localization and accessibility tests."
+      "purpose": "Stage-order, explanation, localization and accessibility tests.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7218,7 +7328,8 @@
         "FR-078",
         "FR-088"
       ],
-      "purpose": "All twelve stage and skipped/conflict workbench fixtures."
+      "purpose": "All twelve stage and skipped/conflict workbench fixtures.",
+      "task": "F0.3"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7235,7 +7346,8 @@
       ],
       "purpose": "Package exports, scripts and exact dependency pins",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7253,7 +7365,8 @@
       ],
       "purpose": "Reproducible dependency lock",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7352,7 +7465,8 @@
       ],
       "purpose": "Core package and SSR host usage",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7370,7 +7484,8 @@
       ],
       "purpose": "Core implementation boundaries",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7419,7 +7534,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Tailwind and SvelteKit integration"
+      "purpose": "Tailwind and SvelteKit integration",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7436,7 +7554,8 @@
       ],
       "purpose": "Unit and SSR test configuration",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7454,7 +7573,8 @@
       ],
       "purpose": "Browser journey configuration",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7500,7 +7620,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Semantic styling entry"
+      "purpose": "Semantic styling entry",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7515,7 +7638,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Private workbench response policy"
+      "purpose": "Private workbench response policy",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7530,7 +7656,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Server-only initial presentation data"
+      "purpose": "Server-only initial presentation data",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7560,7 +7689,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Foundation SSR load and same-origin demonstration action"
+      "purpose": "Foundation SSR load and same-origin demonstration action",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7575,7 +7707,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Foundation workbench landing page"
+      "purpose": "Foundation workbench landing page",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7605,7 +7740,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Public UI package export seam"
+      "purpose": "Public UI package export seam",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7652,7 +7790,8 @@
       ],
       "purpose": "Path, package and server boundary enforcement",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7713,7 +7852,10 @@
         "SDR-026",
         "SDR-041"
       ],
-      "purpose": "Direct-load/action, accessibility, RTL and responsive journey"
+      "purpose": "Direct-load/action, accessibility, RTL and responsive journey",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7748,7 +7890,8 @@
       ],
       "purpose": "Pinned core path reservations",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7766,7 +7909,8 @@
       ],
       "purpose": "Pinned layout rules",
       "modification_tasks": [
-        "F0.2"
+        "F0.2",
+        "F0.3"
       ]
     },
     {
@@ -7845,7 +7989,10 @@
         "NFR-01",
         "NFR-04"
       ],
-      "purpose": "F0.2 generated-client contract and integration foundation"
+      "purpose": "F0.2 generated-client contract and integration foundation",
+      "modification_tasks": [
+        "F0.3"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -8080,6 +8227,175 @@
         "NFR-04"
       ],
       "purpose": "F0.2 generated-client contract and integration foundation"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/style-system-contract.json",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/design-tokens/package.json",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/design-tokens/tsconfig.json",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/design-tokens/src/index.ts",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/design-tokens/src/tokens.css",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/i18n/package.json",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/i18n/tsconfig.json",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/i18n/src/index.ts",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/i18n/src/messages.ts",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/architecture/ui-package.spec.ts",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/component/design-system.spec.ts",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/ssr/design-system.spec.ts",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/design-system.spec.ts",
+      "owner": "ui-kit",
+      "route": "/",
+      "journey": "design-system-workbench",
+      "requirements": [
+        "NFR-04",
+        "NFR-06"
+      ],
+      "purpose": "F0.3 design-system foundation",
+      "task": "F0.3"
     }
   ]
 }

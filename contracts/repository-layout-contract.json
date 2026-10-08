@@ -40,7 +40,8 @@
     "Forms provide server/client error association, summary focus, dirty guards, save progress and conflict recovery.",
     "Charts have table alternatives, text summaries and non-color-only encoding.",
     "F0.1 core bootstrap files are exact reservations owned by foundation; src/lib/index.ts is the library seam and src/routes is the SSR workbench, not a business application.",
-    "F0.2 core-only packages/api-client and packages/api-mocks are independently versioned generated transport and test packages. UI exports may import neither. tools owns deterministic generation and contract validation. Only exact catalog-reserved paths are permitted."
+    "F0.2 core-only packages/api-client and packages/api-mocks are independently versioned generated transport and test packages. UI exports may import neither. tools owns deterministic generation and contract validation. Only exact catalog-reserved paths are permitted.",
+    "F0.3 core-only packages/design-tokens and packages/i18n are independently versioned workspaces. src/components and src/workbench contain named catalogued families. UI package public artifacts exclude workbench/routes/server/API code."
   ],
   "scoped_directory_exceptions": [
     {

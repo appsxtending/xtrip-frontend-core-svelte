@@ -1,77 +1,40 @@
-/** SSR-safe public foundation contract. Business clients and server modules are not exported. */
-export const foundationVersion = '0.1.0';
-export const presentationLocales = ['en', 'ar', 'th', 'en-XA'] as const;
-export type PresentationLocale = (typeof presentationLocales)[number];
-export type PresentationTheme = 'light' | 'dark';
-export const foundationCopy = {
-  en: {
-    title: 'A shared foundation. Every journey.',
-    eyebrow: 'THE XTRIP WORKBENCH',
-    intro: 'One considered starting point for the experiences we build.',
-    preview: 'Make it yours',
-    description: 'Explore the foundation in your language and preferred appearance.',
-    language: 'Language',
-    appearance: 'Appearance',
-    light: 'Light',
-    dark: 'Dark',
-    apply: 'Apply appearance',
-    saved: 'Appearance preview applied.',
-    invalid: 'Choose a supported appearance.',
-    foundation: 'Foundation',
-    products: 'Four experiences. One standard.',
-    next: 'What comes next',
-    nextBody:
-      'Shared components, connected journeys and the details that make every interaction feel familiar.',
-    skip: 'Skip to content',
-    status: 'Foundation preview',
-  },
-  ar: {
-    title: 'أساس مشترك. لكل رحلة.',
-    eyebrow: 'مساحة عمل إكس تريب',
-    intro: 'نقطة انطلاق مدروسة للتجارب التي نبنيها.',
-    preview: 'اجعلها تناسبك',
-    description: 'استكشف الأساس بلغتك والمظهر الذي تفضله.',
-    language: 'اللغة',
-    appearance: 'المظهر',
-    light: 'فاتح',
-    dark: 'داكن',
-    apply: 'تطبيق المظهر',
-    saved: 'تم تطبيق معاينة المظهر.',
-    invalid: 'اختر مظهراً مدعوماً.',
-    foundation: 'الأساس',
-    products: 'أربع تجارب. معيار واحد.',
-    next: 'الخطوة التالية',
-    nextBody: 'مكونات مشتركة ورحلات مترابطة وتفاصيل تجعل كل تفاعل مألوفاً.',
-    skip: 'انتقل إلى المحتوى',
-    status: 'معاينة الأساس',
-  },
-  th: {
-    title: 'รากฐานร่วมกัน เพื่อทุกการเดินทาง',
-    eyebrow: 'พื้นที่ทำงาน XTRIP',
-    intro: 'จุดเริ่มต้นที่ใส่ใจสำหรับทุกประสบการณ์ที่เราสร้าง',
-    preview: 'ปรับให้เป็นคุณ',
-    description: 'สำรวจรากฐานในภาษาและรูปแบบที่คุณต้องการ',
-    language: 'ภาษา',
-    appearance: 'รูปแบบ',
-    light: 'สว่าง',
-    dark: 'มืด',
-    apply: 'ใช้รูปแบบ',
-    saved: 'ใช้ตัวอย่างรูปแบบแล้ว',
-    invalid: 'เลือกรูปแบบที่รองรับ',
-    foundation: 'รากฐาน',
-    products: 'สี่ประสบการณ์ หนึ่งมาตรฐาน',
-    next: 'ก้าวต่อไป',
-    nextBody: 'องค์ประกอบร่วมกัน การเดินทางที่เชื่อมต่อ และรายละเอียดที่ทำให้ทุกการใช้งานคุ้นเคย',
-    skip: 'ข้ามไปยังเนื้อหา',
-    status: 'ตัวอย่างรากฐาน',
-  },
-} as const;
-export function presentationCopy(
-  locale: PresentationLocale,
-): Record<keyof typeof foundationCopy.en, string> {
-  if (locale === 'en-XA')
-    return Object.fromEntries(
-      Object.entries(foundationCopy.en).map(([key, value]) => [key, `[ ${value} · ${value} ]`]),
-    ) as Record<keyof typeof foundationCopy.en, string>;
-  return foundationCopy[locale];
-}
+export const foundationVersion = '0.2.0';
+export { presentationLocales, foundationCopy, presentationCopy, uiCopy } from '@xtrip/i18n';
+export type { PresentationLocale, PresentationTheme } from '@xtrip/i18n';
+export { default as AppShell } from '../components/app-shell/app-shell.svelte';
+export { default as CommandPalette } from '../components/command-palette/command-palette.svelte';
+export { default as Button } from '../components/button/button.svelte';
+export { default as Link } from '../components/link/link.svelte';
+export { default as Menu } from '../components/menu/menu.svelte';
+export { default as Dialog } from '../components/dialog/dialog.svelte';
+export { default as Drawer } from '../components/drawer/drawer.svelte';
+export { default as Popover } from '../components/popover/popover.svelte';
+export { default as Tabs } from '../components/tabs/tabs.svelte';
+export { default as FormField } from '../components/form-field/form-field.svelte';
+export { default as ErrorSummary } from '../components/error-summary/error-summary.svelte';
+export { default as DatePicker } from '../components/date-picker/date-picker.svelte';
+export { default as DateRangePicker } from '../components/date-range-picker/date-range-picker.svelte';
+export { default as OccupancyEditor } from '../components/occupancy-editor/occupancy-editor.svelte';
+export { default as MarketPicker } from '../components/market-picker/market-picker.svelte';
+export { default as GeographyPicker } from '../components/geography-picker/geography-picker.svelte';
+export { default as DataGrid } from '../components/data-grid/data-grid.svelte';
+export { default as ResponsiveRecordList } from '../components/responsive-record-list/responsive-record-list.svelte';
+export { default as BulkActionBar } from '../components/bulk-action-bar/bulk-action-bar.svelte';
+export { default as RateGrid } from '../components/rate-grid/rate-grid.svelte';
+export { default as RemoteState } from '../components/remote-state/remote-state.svelte';
+export { default as Skeleton } from '../components/skeleton/skeleton.svelte';
+export { default as StatusChip } from '../components/status-chip/status-chip.svelte';
+export { default as DeadlineChip } from '../components/deadline-chip/deadline-chip.svelte';
+export { default as Money } from '../components/money/money.svelte';
+export { default as DriftDiff } from '../components/drift-diff/drift-diff.svelte';
+export { default as Timeline } from '../components/timeline/timeline.svelte';
+export { default as DocumentStatus } from '../components/document-status/document-status.svelte';
+export { default as NotificationCenter } from '../components/notification-center/notification-center.svelte';
+export { default as ThemeProvider } from '../components/theme-provider/theme-provider.svelte';
+export { default as ChartShell } from '../components/chart-shell/chart-shell.svelte';
+export { default as MapShell } from '../components/map-shell/map-shell.svelte';
+export { default as Calendar } from '../components/calendar/calendar.svelte';
+export { default as FileImportReview } from '../components/file-import-review/file-import-review.svelte';
+export { default as PriceBreakdown } from '../components/price-breakdown/price-breakdown.svelte';
+export { default as PriceDriftDiff } from '../components/price-drift-diff/price-drift-diff.svelte';
+export { default as PricingStageTrace } from '../components/pricing-stage-trace/pricing-stage-trace.svelte';
