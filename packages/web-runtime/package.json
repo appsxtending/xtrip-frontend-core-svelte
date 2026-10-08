@@ -1,0 +1,34 @@
+{
+  "name": "@xtrip/web-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./server": {
+      "types": "./dist/index.server.d.ts",
+      "default": "./dist/index.server.js"
+    },
+    "./errors": {
+      "types": "./dist/errors.d.ts",
+      "default": "./dist/errors.js"
+    },
+    "./reconciliation": {
+      "types": "./dist/reconciliation.d.ts",
+      "default": "./dist/reconciliation.js"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "default": "./dist/types.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@xtrip/api-client": "0.1.0"
+  }
+}

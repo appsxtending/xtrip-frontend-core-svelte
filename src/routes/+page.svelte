@@ -56,6 +56,7 @@
     | 'forbidden'
     | 'not-found';
   type PageData = {
+    csrf?: string;
     locale: PresentationLocale;
     theme: PresentationTheme;
     applied: boolean;
@@ -199,6 +200,7 @@
         ><button class="ui-button" type="submit">{copy.preview}</button>
       </form>
       <form method="POST" class="ui-row">
+        <input type="hidden" name="csrf" value={data.csrf} />
         <div class="ui-field">
           <label for="appearance-control">{foundation.appearance}</label><select
             id="appearance-control"
@@ -230,6 +232,7 @@
         closeHref={href(section)}
       />
     </section>
+    <a class="ui-link" href="/session/login">Session integration</a>
     <footer class="ui-card">
       <button
         class="ui-disclosure"

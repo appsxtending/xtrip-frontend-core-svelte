@@ -103,8 +103,10 @@ test('locale navigation, keyboard disclosure and invalid appearance', async ({ p
   await disclosure.focus();
   await page.keyboard.press('Enter');
   await expect(disclosure).toHaveAttribute('aria-expanded', 'true');
+  const csrfPage = await request.get('/');
+  const csrf = (await csrfPage.text()).match(/name="csrf" value="([^"]+)"/)?.[1];
   const invalid = await request.post('/', {
-    form: { theme: 'injected' },
+    form: { theme: 'injected', csrf: csrf ?? '' },
     headers: { origin: 'http://127.0.0.1:4173', accept: 'text/html' },
   });
   expect(invalid.status()).toBe(400);

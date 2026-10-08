@@ -39,7 +39,8 @@
     "check:packages": "npm run check --workspaces",
     "test:api:real": "playwright test --project=real-api",
     "check:api:strict": "node tools/generate-api.mjs --check && node tools/check-api-contract.mjs --strict",
-    "verify:release": "npm run check:api:strict && npm run verify && npm run test:api:real"
+    "verify:release": "npm run check:api:strict && npm run verify && npm run test:api:real",
+    "test:session:real": "playwright test --project=session-real"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",
@@ -69,7 +70,9 @@
     "vitest": "5.0.3",
     "ajv": "8.20.0",
     "ajv-formats": "3.0.1",
-    "msw": "2.15.0"
+    "msw": "2.15.0",
+    "@xtrip/web-runtime": "0.1.0",
+    "@tanstack/svelte-query": "6.3.1"
   },
   "peerDependencies": {
     "@sveltejs/kit": "3.0.0",

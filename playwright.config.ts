@@ -2,7 +2,12 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
   testDir: './e2e',
   projects: [
-    { name: 'foundation', testIgnore: '**/api-client-real.spec.ts' },
+    {
+      name: 'session-real',
+      testMatch: '**/session-real.spec.ts',
+      use: { trace: 'off', screenshot: 'off', video: 'off' },
+    },
+    { name: 'foundation', testIgnore: ['**/api-client-real.spec.ts', '**/session-real.spec.ts'] },
     {
       name: 'real-api',
       testMatch: '**/api-client-real.spec.ts',
@@ -17,7 +22,9 @@ export default defineConfig({
   webServer: process.argv.includes('--project=real-api')
     ? undefined
     : {
-        command: 'node build',
+        command: process.argv.includes('--project=session-real')
+          ? 'node --env-file=.env.session-test build'
+          : 'node test/fixtures/session-api.server.ts',
         url: 'http://127.0.0.1:4173',
         reuseExistingServer: false,
         env: { HOST: '127.0.0.1', PORT: '4173' },
