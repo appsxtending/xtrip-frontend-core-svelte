@@ -35,7 +35,9 @@
     "check:api": "node tools/generate-api.mjs --check && node tools/check-api-contract.mjs",
     "build:packages": "npm run build --workspaces",
     "check:packages": "npm run check --workspaces",
-    "test:api:real": "playwright test --project=real-api"
+    "test:api:real": "playwright test --project=real-api",
+    "check:api:strict": "node tools/generate-api.mjs --check && node tools/check-api-contract.mjs --strict",
+    "verify:release": "npm run check:api:strict && npm run verify && npm run test:api:real"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",

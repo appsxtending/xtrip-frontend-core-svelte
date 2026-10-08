@@ -11,5 +11,39 @@
     "permission-catalog.json": "9a78582b4d6faaf2581bef77fec661aeeef354f7445de00a82fbe1584c6cbd46",
     "pricing-presentation-contract.json": "15df9ab33c806614810c7616d6beef8709d1ed5adfd0ec60fda919e668ddfd64"
   },
-  "hashAlgorithm": "SHA-256 over UTF-8 normalized to LF"
+  "hashAlgorithm": "SHA-256 over UTF-8 normalized to LF",
+  "canonicalExampleDeferral": {
+    "approvedBy": "owner",
+    "approvedOn": "2026-10-08",
+    "revisitAt": "F12.3 final integration, before release acceptance",
+    "reason": "Owner will provide corrected API at final integration; skip only these existing malformed examples during frontend development.",
+    "apiContractSha256": "c9a66673ba21c388fc127c58aacbf0dc3895d45f5640a26f540e93fe361159a6",
+    "examples": [
+      "deleteV1SearchSavedSearchesSavedSearchId/404/canonical",
+      "getV1PlatformPlansPlanId/404/canonical",
+      "getV1PlatformPlansPlanIdVersions/404/canonical",
+      "getV1PlatformTenantsTenantIdSubscription/404/canonical",
+      "getV1PublicCheckoutsCheckoutId/202/canonical",
+      "getV1PublicPaymentsReturn/202/canonical",
+      "getV1SearchSavedSearchesSavedSearchId/404/canonical",
+      "postV1PlatformPlans/409/canonical",
+      "postV1PlatformPlans/422/canonical",
+      "postV1PlatformPlansPlanIdRetire/404/canonical",
+      "postV1PlatformPlansPlanIdRetire/409/canonical",
+      "postV1PlatformPlansPlanIdVersions/404/canonical",
+      "postV1PlatformPlansPlanIdVersions/409/canonical",
+      "postV1PlatformPlansPlanIdVersions/422/canonical",
+      "postV1PlatformPlansPlanIdVersionsVersionIdPublish/404/canonical",
+      "postV1PlatformPlansPlanIdVersionsVersionIdPublish/409/canonical",
+      "postV1SearchSavedSearches/409/canonical",
+      "postV1SearchSavedSearchesSavedSearchIdExecute/404/canonical",
+      "putV1PlatformPlansPlanId/404/canonical",
+      "putV1PlatformPlansPlanId/409/canonical",
+      "putV1PlatformTenantsTenantIdSubscription/404/canonical",
+      "putV1PlatformTenantsTenantIdSubscription/409/canonical",
+      "putV1PlatformTenantsTenantIdSubscription/422/canonical",
+      "putV1SearchSavedSearchesSavedSearchId/404/canonical",
+      "putV1SearchSavedSearchesSavedSearchId/409/canonical"
+    ]
+  }
 }
