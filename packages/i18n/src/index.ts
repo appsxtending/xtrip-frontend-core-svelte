@@ -75,4 +75,14 @@ export function presentationCopy(
   return foundationCopy[locale];
 }
 
-export { messages, uiCopy } from './messages.js';
+export { messages, uiCopy, sessionCopy } from './messages.js';
+
+export function formatFreshness(timestamp: number, locale: PresentationLocale): string {
+  return (
+    new Intl.DateTimeFormat(locale === 'en-XA' ? 'en' : locale, {
+      dateStyle: 'medium',
+      timeStyle: 'medium',
+      timeZone: 'UTC',
+    }).format(new Date(timestamp)) + ' UTC'
+  );
+}

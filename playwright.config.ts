@@ -1,5 +1,7 @@
 import { defineConfig } from '@playwright/test';
 export default defineConfig({
+  snapshotPathTemplate: '{testDir}/visual-baselines/{arg}{ext}',
+  updateSnapshots: process.env.XTRIP_VISUAL_CANDIDATES === 'true' ? 'all' : 'none',
   testDir: './e2e',
   projects: [
     {
@@ -7,7 +9,16 @@ export default defineConfig({
       testMatch: '**/session-real.spec.ts',
       use: { trace: 'off', screenshot: 'off', video: 'off' },
     },
-    { name: 'foundation', testIgnore: ['**/api-client-real.spec.ts', '**/session-real.spec.ts'] },
+    {
+      name: 'foundation',
+      outputDir: 'test-results/foundation',
+      testIgnore: [
+        '**/api-client-real.spec.ts',
+        '**/session-real.spec.ts',
+        '**/quality-visual.spec.ts',
+      ],
+    },
+    { name: 'visual', outputDir: 'test-results/visual', testMatch: '**/quality-visual.spec.ts' },
     {
       name: 'real-api',
       testMatch: '**/api-client-real.spec.ts',

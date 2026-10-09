@@ -1,8 +1,15 @@
 <script lang="ts">
-  import { uiCopy } from '@xtrip/i18n';
+  let hydrationMs = $state<number | undefined>();
+  onMount(() => {
+    hydrationMs = performance.now();
+  });
+  import { onMount } from 'svelte';
+  import { sessionCopy } from '@xtrip/i18n';
   let { data, form } = $props();
-  const copy = $derived(uiCopy.session(data.locale));
+  const copy = $derived(sessionCopy(data.locale));
 </script>
+
+<span hidden data-hydration-ms={hydrationMs}></span>
 
 <svelte:head><title>{copy.signIn} · XTrip</title></svelte:head>
 <main class="ui-panel ui-stack">

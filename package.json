@@ -40,7 +40,9 @@
     "test:api:real": "playwright test --project=real-api",
     "check:api:strict": "node tools/generate-api.mjs --check && node tools/check-api-contract.mjs --strict",
     "verify:release": "npm run check:api:strict && npm run verify && npm run test:api:real",
-    "test:session:real": "playwright test --project=session-real"
+    "test:session:real": "playwright test --project=session-real",
+    "test:quality": "playwright test --project=foundation quality-",
+    "test:visual": "playwright test --project=visual"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",

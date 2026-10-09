@@ -254,10 +254,9 @@ const sessionEnglish = {
   retryable: 'Temporarily unavailable. Try again later.',
   unexpected: 'Unable to complete the request.',
 };
-export function sessionCopy(locale: string) {
+export function sessionCopy(locale: string): Record<keyof typeof sessionEnglish, string> {
   if (locale === 'ar')
     return {
-      ...sessionEnglish,
       signIn: 'تسجيل الدخول',
       signOut: 'تسجيل الخروج',
       session: 'جلسة الاختبار',
@@ -286,10 +285,26 @@ export function sessionCopy(locale: string) {
     };
   if (locale === 'th')
     return {
-      ...sessionEnglish,
       signIn: 'เข้าสู่ระบบ',
       signOut: 'ออกจากระบบ',
       session: 'เซสชัน',
+      demo: 'พื้นที่ทดสอบการเชื่อมต่อสำหรับบัญชีที่ได้รับอนุญาตเท่านั้น',
+      invalid: 'เข้าสู่ระบบหรือยืนยันไม่สำเร็จ โปรดตรวจสอบข้อมูลแล้วลองอีกครั้ง',
+      code: 'รหัสยืนยัน',
+      verify: 'ยืนยัน',
+      freshness: 'ตรวจสอบสำเร็จล่าสุด',
+      loaded: 'ข้อมูลล่าสุด',
+      refreshing: 'กำลังตรวจสอบข้อมูล',
+      stale: 'ข้อมูลอาจไม่เป็นปัจจุบัน',
+      paused: 'หยุดการอัปเดตชั่วคราว',
+      stopped: 'สิ้นสุดการอัปเดตอัตโนมัติ',
+      forbidden: 'ไม่สามารถเข้าถึงได้ โปรดเข้าสู่ระบบอีกครั้ง',
+      authentication: 'โปรดเข้าสู่ระบบอีกครั้ง',
+      conflict: 'ข้อมูลมีการเปลี่ยนแปลง โปรดโหลดใหม่',
+      validation: 'ตรวจสอบข้อมูลแล้วลองอีกครั้ง',
+      'not-found': 'ไม่พบหน้าที่ต้องการ',
+      retryable: 'ไม่พร้อมใช้งานชั่วคราว โปรดลองภายหลัง',
+      unexpected: 'ไม่สามารถดำเนินการได้',
       email: 'อีเมล',
       password: 'รหัสผ่าน',
       tenant: 'รหัสองค์กร',
@@ -302,5 +317,3 @@ export function sessionCopy(locale: string) {
     ) as typeof sessionEnglish;
   return sessionEnglish;
 }
-
-uiCopy.session = sessionCopy;

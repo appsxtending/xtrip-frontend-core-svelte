@@ -12,7 +12,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 +page.svelte"
+      "purpose": "agent-auth-and-draft-restore — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -24,7 +24,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 +page.server.ts"
+      "purpose": "agent-auth-and-draft-restore — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -36,7 +36,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 queries.ts"
+      "purpose": "agent-auth-and-draft-restore — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -48,7 +48,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 schema.ts"
+      "purpose": "agent-auth-and-draft-restore — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -60,7 +60,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 view-model.ts"
+      "purpose": "agent-auth-and-draft-restore — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -72,7 +72,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 state.svelte.ts"
+      "purpose": "agent-auth-and-draft-restore — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -84,7 +84,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 agent-auth-and-draft-restore.spec.ts"
+      "purpose": "agent-auth-and-draft-restore — agent-auth-and-draft-restore.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -96,7 +96,7 @@
         "FR-006",
         "FR-008"
       ],
-      "purpose": "agent-auth-and-draft-restore \u2014 agent-auth-and-draft-restore.spec.ts"
+      "purpose": "agent-auth-and-draft-restore — agent-auth-and-draft-restore.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -109,7 +109,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 +page.svelte"
+      "purpose": "agent-search-stream-and-filter — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -122,7 +122,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 +page.server.ts"
+      "purpose": "agent-search-stream-and-filter — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -135,7 +135,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 queries.ts"
+      "purpose": "agent-search-stream-and-filter — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -148,7 +148,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 schema.ts"
+      "purpose": "agent-search-stream-and-filter — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -161,7 +161,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 view-model.ts"
+      "purpose": "agent-search-stream-and-filter — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -174,7 +174,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 state.svelte.ts"
+      "purpose": "agent-search-stream-and-filter — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -187,7 +187,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 agent-search-stream-and-filter.spec.ts"
+      "purpose": "agent-search-stream-and-filter — agent-search-stream-and-filter.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -200,7 +200,7 @@
         "FR-100",
         "FR-182"
       ],
-      "purpose": "agent-search-stream-and-filter \u2014 agent-search-stream-and-filter.spec.ts"
+      "purpose": "agent-search-stream-and-filter — agent-search-stream-and-filter.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -212,7 +212,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 +page.svelte"
+      "purpose": "agent-offer-detail-and-add — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -224,7 +224,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 +page.server.ts"
+      "purpose": "agent-offer-detail-and-add — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -236,7 +236,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 queries.ts"
+      "purpose": "agent-offer-detail-and-add — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -248,7 +248,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 schema.ts"
+      "purpose": "agent-offer-detail-and-add — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -260,7 +260,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 view-model.ts"
+      "purpose": "agent-offer-detail-and-add — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -272,7 +272,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 state.svelte.ts"
+      "purpose": "agent-offer-detail-and-add — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -284,7 +284,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 agent-offer-detail-and-add.spec.ts"
+      "purpose": "agent-offer-detail-and-add — agent-offer-detail-and-add.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -296,7 +296,7 @@
         "FR-101",
         "FR-103"
       ],
-      "purpose": "agent-offer-detail-and-add \u2014 agent-offer-detail-and-add.spec.ts"
+      "purpose": "agent-offer-detail-and-add — agent-offer-detail-and-add.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -309,7 +309,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 +page.svelte"
+      "purpose": "agent-review-revalidate-and-recover — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -322,7 +322,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 +page.server.ts"
+      "purpose": "agent-review-revalidate-and-recover — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -335,7 +335,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 queries.ts"
+      "purpose": "agent-review-revalidate-and-recover — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -348,7 +348,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 schema.ts"
+      "purpose": "agent-review-revalidate-and-recover — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -361,7 +361,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 view-model.ts"
+      "purpose": "agent-review-revalidate-and-recover — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -374,7 +374,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 state.svelte.ts"
+      "purpose": "agent-review-revalidate-and-recover — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -387,7 +387,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 agent-review-revalidate-and-recover.spec.ts"
+      "purpose": "agent-review-revalidate-and-recover — agent-review-revalidate-and-recover.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -400,7 +400,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-review-revalidate-and-recover \u2014 agent-review-revalidate-and-recover.spec.ts"
+      "purpose": "agent-review-revalidate-and-recover — agent-review-revalidate-and-recover.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -412,7 +412,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 +page.svelte"
+      "purpose": "agent-quote-list-and-resume — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -424,7 +424,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 +page.server.ts"
+      "purpose": "agent-quote-list-and-resume — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -436,7 +436,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 queries.ts"
+      "purpose": "agent-quote-list-and-resume — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -448,7 +448,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 schema.ts"
+      "purpose": "agent-quote-list-and-resume — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -460,7 +460,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 view-model.ts"
+      "purpose": "agent-quote-list-and-resume — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -472,7 +472,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 state.svelte.ts"
+      "purpose": "agent-quote-list-and-resume — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -484,7 +484,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 agent-quote-list-and-resume.spec.ts"
+      "purpose": "agent-quote-list-and-resume — agent-quote-list-and-resume.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -496,7 +496,7 @@
         "FR-106",
         "FR-183"
       ],
-      "purpose": "agent-quote-list-and-resume \u2014 agent-quote-list-and-resume.spec.ts"
+      "purpose": "agent-quote-list-and-resume — agent-quote-list-and-resume.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -509,7 +509,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 +page.svelte"
+      "purpose": "agent-quote-drift-decision — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -522,7 +522,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 +page.server.ts"
+      "purpose": "agent-quote-drift-decision — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -535,7 +535,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 queries.ts"
+      "purpose": "agent-quote-drift-decision — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -548,7 +548,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 schema.ts"
+      "purpose": "agent-quote-drift-decision — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -561,7 +561,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 view-model.ts"
+      "purpose": "agent-quote-drift-decision — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -574,7 +574,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 state.svelte.ts"
+      "purpose": "agent-quote-drift-decision — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -587,7 +587,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 agent-quote-drift-decision.spec.ts"
+      "purpose": "agent-quote-drift-decision — agent-quote-drift-decision.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -600,7 +600,7 @@
         "FR-107",
         "FR-183"
       ],
-      "purpose": "agent-quote-drift-decision \u2014 agent-quote-drift-decision.spec.ts"
+      "purpose": "agent-quote-drift-decision — agent-quote-drift-decision.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -612,7 +612,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 +page.svelte"
+      "purpose": "agent-booking-list-live-status — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -624,7 +624,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 +page.server.ts"
+      "purpose": "agent-booking-list-live-status — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -636,7 +636,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 queries.ts"
+      "purpose": "agent-booking-list-live-status — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -648,7 +648,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 schema.ts"
+      "purpose": "agent-booking-list-live-status — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -660,7 +660,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 view-model.ts"
+      "purpose": "agent-booking-list-live-status — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -672,7 +672,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 state.svelte.ts"
+      "purpose": "agent-booking-list-live-status — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -684,7 +684,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 agent-booking-list-live-status.spec.ts"
+      "purpose": "agent-booking-list-live-status — agent-booking-list-live-status.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -696,7 +696,7 @@
         "FR-108",
         "FR-184"
       ],
-      "purpose": "agent-booking-list-live-status \u2014 agent-booking-list-live-status.spec.ts"
+      "purpose": "agent-booking-list-live-status — agent-booking-list-live-status.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -709,7 +709,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 +page.svelte"
+      "purpose": "agent-booking-manage-and-cancel — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -722,7 +722,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 +page.server.ts"
+      "purpose": "agent-booking-manage-and-cancel — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -735,7 +735,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 queries.ts"
+      "purpose": "agent-booking-manage-and-cancel — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -748,7 +748,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 schema.ts"
+      "purpose": "agent-booking-manage-and-cancel — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -761,7 +761,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 view-model.ts"
+      "purpose": "agent-booking-manage-and-cancel — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -774,7 +774,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 state.svelte.ts"
+      "purpose": "agent-booking-manage-and-cancel — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -787,7 +787,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 agent-booking-manage-and-cancel.spec.ts"
+      "purpose": "agent-booking-manage-and-cancel — agent-booking-manage-and-cancel.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -800,7 +800,7 @@
         "FR-114",
         "FR-184"
       ],
-      "purpose": "agent-booking-manage-and-cancel \u2014 agent-booking-manage-and-cancel.spec.ts"
+      "purpose": "agent-booking-manage-and-cancel — agent-booking-manage-and-cancel.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -812,7 +812,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 +page.svelte"
+      "purpose": "agent-deadline-act-from-mobile — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -824,7 +824,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 +page.server.ts"
+      "purpose": "agent-deadline-act-from-mobile — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -836,7 +836,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 queries.ts"
+      "purpose": "agent-deadline-act-from-mobile — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -848,7 +848,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 schema.ts"
+      "purpose": "agent-deadline-act-from-mobile — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -860,7 +860,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 view-model.ts"
+      "purpose": "agent-deadline-act-from-mobile — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -872,7 +872,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 state.svelte.ts"
+      "purpose": "agent-deadline-act-from-mobile — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -884,7 +884,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 agent-deadline-act-from-mobile.spec.ts"
+      "purpose": "agent-deadline-act-from-mobile — agent-deadline-act-from-mobile.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -896,7 +896,7 @@
         "FR-185",
         "FR-210"
       ],
-      "purpose": "agent-deadline-act-from-mobile \u2014 agent-deadline-act-from-mobile.spec.ts"
+      "purpose": "agent-deadline-act-from-mobile — agent-deadline-act-from-mobile.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -908,7 +908,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 +page.svelte"
+      "purpose": "agent-money-summary — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -920,7 +920,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 +page.server.ts"
+      "purpose": "agent-money-summary — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -932,7 +932,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 queries.ts"
+      "purpose": "agent-money-summary — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -944,7 +944,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 schema.ts"
+      "purpose": "agent-money-summary — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -956,7 +956,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 view-model.ts"
+      "purpose": "agent-money-summary — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -968,7 +968,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 state.svelte.ts"
+      "purpose": "agent-money-summary — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -980,7 +980,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 agent-money-summary.spec.ts"
+      "purpose": "agent-money-summary — agent-money-summary.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -992,7 +992,7 @@
         "FR-127",
         "FR-186"
       ],
-      "purpose": "agent-money-summary \u2014 agent-money-summary.spec.ts"
+      "purpose": "agent-money-summary — agent-money-summary.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1004,7 +1004,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 +page.svelte"
+      "purpose": "agent-wallet-top-up — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1016,7 +1016,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 +page.server.ts"
+      "purpose": "agent-wallet-top-up — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1028,7 +1028,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 queries.ts"
+      "purpose": "agent-wallet-top-up — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1040,7 +1040,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 schema.ts"
+      "purpose": "agent-wallet-top-up — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1052,7 +1052,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 view-model.ts"
+      "purpose": "agent-wallet-top-up — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1064,7 +1064,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 state.svelte.ts"
+      "purpose": "agent-wallet-top-up — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1076,7 +1076,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 agent-wallet-top-up.spec.ts"
+      "purpose": "agent-wallet-top-up — agent-wallet-top-up.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1088,7 +1088,7 @@
         "FR-136",
         "FR-186"
       ],
-      "purpose": "agent-wallet-top-up \u2014 agent-wallet-top-up.spec.ts"
+      "purpose": "agent-wallet-top-up — agent-wallet-top-up.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1100,7 +1100,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 +page.svelte"
+      "purpose": "agent-notification-deep-link — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1112,7 +1112,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 +page.server.ts"
+      "purpose": "agent-notification-deep-link — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1124,7 +1124,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 queries.ts"
+      "purpose": "agent-notification-deep-link — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1136,7 +1136,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 schema.ts"
+      "purpose": "agent-notification-deep-link — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1148,7 +1148,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 view-model.ts"
+      "purpose": "agent-notification-deep-link — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1160,7 +1160,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 state.svelte.ts"
+      "purpose": "agent-notification-deep-link — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1172,7 +1172,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 agent-notification-deep-link.spec.ts"
+      "purpose": "agent-notification-deep-link — agent-notification-deep-link.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1184,7 +1184,7 @@
         "FR-121",
         "FR-187"
       ],
-      "purpose": "agent-notification-deep-link \u2014 agent-notification-deep-link.spec.ts"
+      "purpose": "agent-notification-deep-link — agent-notification-deep-link.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1195,7 +1195,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 +page.svelte"
+      "purpose": "agent-admin-manages-subusers — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1206,7 +1206,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 +page.server.ts"
+      "purpose": "agent-admin-manages-subusers — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1217,7 +1217,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 queries.ts"
+      "purpose": "agent-admin-manages-subusers — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1228,7 +1228,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 schema.ts"
+      "purpose": "agent-admin-manages-subusers — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1239,7 +1239,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 view-model.ts"
+      "purpose": "agent-admin-manages-subusers — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1250,7 +1250,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 state.svelte.ts"
+      "purpose": "agent-admin-manages-subusers — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1261,7 +1261,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 agent-admin-manages-subusers.spec.ts"
+      "purpose": "agent-admin-manages-subusers — agent-admin-manages-subusers.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1272,7 +1272,7 @@
       "requirements": [
         "FR-020"
       ],
-      "purpose": "agent-admin-manages-subusers \u2014 agent-admin-manages-subusers.spec.ts"
+      "purpose": "agent-admin-manages-subusers — agent-admin-manages-subusers.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1283,7 +1283,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 +page.svelte"
+      "purpose": "agent-saved-search-watch — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1294,7 +1294,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 +page.server.ts"
+      "purpose": "agent-saved-search-watch — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1305,7 +1305,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 queries.ts"
+      "purpose": "agent-saved-search-watch — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1316,7 +1316,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 schema.ts"
+      "purpose": "agent-saved-search-watch — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1327,7 +1327,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 view-model.ts"
+      "purpose": "agent-saved-search-watch — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1338,7 +1338,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 state.svelte.ts"
+      "purpose": "agent-saved-search-watch — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1349,7 +1349,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 agent-saved-search-watch.spec.ts"
+      "purpose": "agent-saved-search-watch — agent-saved-search-watch.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1360,7 +1360,7 @@
       "requirements": [
         "FR-188"
       ],
-      "purpose": "agent-saved-search-watch \u2014 agent-saved-search-watch.spec.ts"
+      "purpose": "agent-saved-search-watch — agent-saved-search-watch.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1372,7 +1372,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 +page.svelte"
+      "purpose": "agent-api-key-rotate — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1384,7 +1384,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 +page.server.ts"
+      "purpose": "agent-api-key-rotate — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1396,7 +1396,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 queries.ts"
+      "purpose": "agent-api-key-rotate — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1408,7 +1408,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 schema.ts"
+      "purpose": "agent-api-key-rotate — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1420,7 +1420,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 view-model.ts"
+      "purpose": "agent-api-key-rotate — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1432,7 +1432,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 state.svelte.ts"
+      "purpose": "agent-api-key-rotate — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1444,7 +1444,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 agent-api-key-rotate.spec.ts"
+      "purpose": "agent-api-key-rotate — agent-api-key-rotate.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1456,7 +1456,7 @@
         "FR-011",
         "FR-202"
       ],
-      "purpose": "agent-api-key-rotate \u2014 agent-api-key-rotate.spec.ts"
+      "purpose": "agent-api-key-rotate — agent-api-key-rotate.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1468,7 +1468,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 +page.svelte"
+      "purpose": "agent-group-booking — +page.svelte"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1480,7 +1480,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 +page.server.ts"
+      "purpose": "agent-group-booking — +page.server.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1492,7 +1492,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 queries.ts"
+      "purpose": "agent-group-booking — queries.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1504,7 +1504,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 schema.ts"
+      "purpose": "agent-group-booking — schema.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1516,7 +1516,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 view-model.ts"
+      "purpose": "agent-group-booking — view-model.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1528,7 +1528,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 state.svelte.ts"
+      "purpose": "agent-group-booking — state.svelte.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1540,7 +1540,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 agent-group-booking.spec.ts"
+      "purpose": "agent-group-booking — agent-group-booking.spec.ts"
     },
     {
       "repository": "xtrip-agent-portal-svelte",
@@ -1552,7 +1552,7 @@
         "FR-207",
         "FR-213"
       ],
-      "purpose": "agent-group-booking \u2014 agent-group-booking.spec.ts"
+      "purpose": "agent-group-booking — agent-group-booking.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1564,7 +1564,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 +page.svelte"
+      "purpose": "tenant-auth — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1576,7 +1576,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 +page.server.ts"
+      "purpose": "tenant-auth — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1588,7 +1588,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 queries.ts"
+      "purpose": "tenant-auth — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1600,7 +1600,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 schema.ts"
+      "purpose": "tenant-auth — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1612,7 +1612,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 view-model.ts"
+      "purpose": "tenant-auth — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1624,7 +1624,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 state.svelte.ts"
+      "purpose": "tenant-auth — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1636,7 +1636,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 tenant-auth.spec.ts"
+      "purpose": "tenant-auth — tenant-auth.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1648,7 +1648,7 @@
         "FR-006",
         "FR-012"
       ],
-      "purpose": "tenant-auth \u2014 tenant-auth.spec.ts"
+      "purpose": "tenant-auth — tenant-auth.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1660,7 +1660,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 +page.svelte"
+      "purpose": "tenant-first-bookable-product — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1672,7 +1672,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 +page.server.ts"
+      "purpose": "tenant-first-bookable-product — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1684,7 +1684,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 queries.ts"
+      "purpose": "tenant-first-bookable-product — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1696,7 +1696,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 schema.ts"
+      "purpose": "tenant-first-bookable-product — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1708,7 +1708,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 view-model.ts"
+      "purpose": "tenant-first-bookable-product — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1720,7 +1720,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 state.svelte.ts"
+      "purpose": "tenant-first-bookable-product — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1732,7 +1732,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 tenant-first-bookable-product.spec.ts"
+      "purpose": "tenant-first-bookable-product — tenant-first-bookable-product.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1744,7 +1744,7 @@
         "FR-014",
         "FR-206"
       ],
-      "purpose": "tenant-first-bookable-product \u2014 tenant-first-bookable-product.spec.ts"
+      "purpose": "tenant-first-bookable-product — tenant-first-bookable-product.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1756,7 +1756,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 +page.svelte"
+      "purpose": "tenant-user-role-audit — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1768,7 +1768,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 +page.server.ts"
+      "purpose": "tenant-user-role-audit — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1780,7 +1780,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 queries.ts"
+      "purpose": "tenant-user-role-audit — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1792,7 +1792,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 schema.ts"
+      "purpose": "tenant-user-role-audit — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1804,7 +1804,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 view-model.ts"
+      "purpose": "tenant-user-role-audit — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1816,7 +1816,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 state.svelte.ts"
+      "purpose": "tenant-user-role-audit — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1828,7 +1828,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 tenant-user-role-audit.spec.ts"
+      "purpose": "tenant-user-role-audit — tenant-user-role-audit.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1840,7 +1840,7 @@
         "FR-009",
         "FR-015"
       ],
-      "purpose": "tenant-user-role-audit \u2014 tenant-user-role-audit.spec.ts"
+      "purpose": "tenant-user-role-audit — tenant-user-role-audit.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1852,7 +1852,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 +page.svelte"
+      "purpose": "tenant-settings-audited — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1864,7 +1864,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 +page.server.ts"
+      "purpose": "tenant-settings-audited — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1876,7 +1876,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 queries.ts"
+      "purpose": "tenant-settings-audited — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1888,7 +1888,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 schema.ts"
+      "purpose": "tenant-settings-audited — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1900,7 +1900,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 view-model.ts"
+      "purpose": "tenant-settings-audited — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1912,7 +1912,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 state.svelte.ts"
+      "purpose": "tenant-settings-audited — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1924,7 +1924,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 tenant-settings-audited.spec.ts"
+      "purpose": "tenant-settings-audited — tenant-settings-audited.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1936,7 +1936,7 @@
         "FR-014",
         "FR-015"
       ],
-      "purpose": "tenant-settings-audited \u2014 tenant-settings-audited.spec.ts"
+      "purpose": "tenant-settings-audited — tenant-settings-audited.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1947,7 +1947,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 +page.svelte"
+      "purpose": "booking-reference-scheme-publish — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1958,7 +1958,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 +page.server.ts"
+      "purpose": "booking-reference-scheme-publish — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1969,7 +1969,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 queries.ts"
+      "purpose": "booking-reference-scheme-publish — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1980,7 +1980,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 schema.ts"
+      "purpose": "booking-reference-scheme-publish — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -1991,7 +1991,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 view-model.ts"
+      "purpose": "booking-reference-scheme-publish — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2002,7 +2002,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 state.svelte.ts"
+      "purpose": "booking-reference-scheme-publish — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2013,7 +2013,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 booking-reference-scheme-publish.spec.ts"
+      "purpose": "booking-reference-scheme-publish — booking-reference-scheme-publish.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2024,7 +2024,7 @@
       "requirements": [
         "FR-108"
       ],
-      "purpose": "booking-reference-scheme-publish \u2014 booking-reference-scheme-publish.spec.ts"
+      "purpose": "booking-reference-scheme-publish — booking-reference-scheme-publish.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2036,7 +2036,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 +page.svelte"
+      "purpose": "masterdata-governed-lifecycle — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2048,7 +2048,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 +page.server.ts"
+      "purpose": "masterdata-governed-lifecycle — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2060,7 +2060,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 queries.ts"
+      "purpose": "masterdata-governed-lifecycle — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2072,7 +2072,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 schema.ts"
+      "purpose": "masterdata-governed-lifecycle — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2084,7 +2084,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 view-model.ts"
+      "purpose": "masterdata-governed-lifecycle — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2096,7 +2096,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 state.svelte.ts"
+      "purpose": "masterdata-governed-lifecycle — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2108,7 +2108,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 masterdata-governed-lifecycle.spec.ts"
+      "purpose": "masterdata-governed-lifecycle — masterdata-governed-lifecycle.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2120,7 +2120,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "masterdata-governed-lifecycle \u2014 masterdata-governed-lifecycle.spec.ts"
+      "purpose": "masterdata-governed-lifecycle — masterdata-governed-lifecycle.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2132,7 +2132,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 +page.svelte"
+      "purpose": "commercial-market-resolve-and-assign — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2144,7 +2144,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 +page.server.ts"
+      "purpose": "commercial-market-resolve-and-assign — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2156,7 +2156,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 queries.ts"
+      "purpose": "commercial-market-resolve-and-assign — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2168,7 +2168,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 schema.ts"
+      "purpose": "commercial-market-resolve-and-assign — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2180,7 +2180,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 view-model.ts"
+      "purpose": "commercial-market-resolve-and-assign — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2192,7 +2192,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 state.svelte.ts"
+      "purpose": "commercial-market-resolve-and-assign — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2204,7 +2204,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 commercial-market-resolve-and-assign.spec.ts"
+      "purpose": "commercial-market-resolve-and-assign — commercial-market-resolve-and-assign.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2216,7 +2216,7 @@
         "FR-056",
         "FR-079"
       ],
-      "purpose": "commercial-market-resolve-and-assign \u2014 commercial-market-resolve-and-assign.spec.ts"
+      "purpose": "commercial-market-resolve-and-assign — commercial-market-resolve-and-assign.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2229,7 +2229,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 +page.svelte"
+      "purpose": "channel-theme-preview-publish-rollback — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2242,7 +2242,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 +page.server.ts"
+      "purpose": "channel-theme-preview-publish-rollback — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2255,7 +2255,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 queries.ts"
+      "purpose": "channel-theme-preview-publish-rollback — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2268,7 +2268,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 schema.ts"
+      "purpose": "channel-theme-preview-publish-rollback — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2281,7 +2281,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 view-model.ts"
+      "purpose": "channel-theme-preview-publish-rollback — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2294,7 +2294,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 state.svelte.ts"
+      "purpose": "channel-theme-preview-publish-rollback — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2307,7 +2307,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 channel-theme-preview-publish-rollback.spec.ts"
+      "purpose": "channel-theme-preview-publish-rollback — channel-theme-preview-publish-rollback.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2320,7 +2320,7 @@
         "FR-178",
         "FR-206"
       ],
-      "purpose": "channel-theme-preview-publish-rollback \u2014 channel-theme-preview-publish-rollback.spec.ts"
+      "purpose": "channel-theme-preview-publish-rollback — channel-theme-preview-publish-rollback.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2332,7 +2332,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 +page.svelte"
+      "purpose": "tenant-smtp-test-route-send — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2344,7 +2344,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 +page.server.ts"
+      "purpose": "tenant-smtp-test-route-send — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2356,7 +2356,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 queries.ts"
+      "purpose": "tenant-smtp-test-route-send — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2368,7 +2368,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 schema.ts"
+      "purpose": "tenant-smtp-test-route-send — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2380,7 +2380,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 view-model.ts"
+      "purpose": "tenant-smtp-test-route-send — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2392,7 +2392,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 state.svelte.ts"
+      "purpose": "tenant-smtp-test-route-send — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2404,7 +2404,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 tenant-smtp-test-route-send.spec.ts"
+      "purpose": "tenant-smtp-test-route-send — tenant-smtp-test-route-send.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2416,7 +2416,7 @@
         "FR-121",
         "FR-126"
       ],
-      "purpose": "tenant-smtp-test-route-send \u2014 tenant-smtp-test-route-send.spec.ts"
+      "purpose": "tenant-smtp-test-route-send — tenant-smtp-test-route-send.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2428,7 +2428,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 +page.svelte"
+      "purpose": "product-list-and-create — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2440,7 +2440,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 +page.server.ts"
+      "purpose": "product-list-and-create — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2452,7 +2452,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 queries.ts"
+      "purpose": "product-list-and-create — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2464,7 +2464,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 schema.ts"
+      "purpose": "product-list-and-create — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2476,7 +2476,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 view-model.ts"
+      "purpose": "product-list-and-create — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2488,7 +2488,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 state.svelte.ts"
+      "purpose": "product-list-and-create — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2500,7 +2500,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 product-list-and-create.spec.ts"
+      "purpose": "product-list-and-create — product-list-and-create.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2512,7 +2512,7 @@
         "FR-023",
         "FR-028"
       ],
-      "purpose": "product-list-and-create \u2014 product-list-and-create.spec.ts"
+      "purpose": "product-list-and-create — product-list-and-create.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2524,7 +2524,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 +page.svelte"
+      "purpose": "product-publish-ready — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2536,7 +2536,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 +page.server.ts"
+      "purpose": "product-publish-ready — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2548,7 +2548,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 queries.ts"
+      "purpose": "product-publish-ready — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2560,7 +2560,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 schema.ts"
+      "purpose": "product-publish-ready — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2572,7 +2572,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 view-model.ts"
+      "purpose": "product-publish-ready — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2584,7 +2584,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 state.svelte.ts"
+      "purpose": "product-publish-ready — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2596,7 +2596,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 product-publish-ready.spec.ts"
+      "purpose": "product-publish-ready — product-publish-ready.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2608,7 +2608,7 @@
         "FR-023",
         "FR-047"
       ],
-      "purpose": "product-publish-ready \u2014 product-publish-ready.spec.ts"
+      "purpose": "product-publish-ready — product-publish-ready.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2620,7 +2620,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 +page.svelte"
+      "purpose": "contract-list-and-version — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2632,7 +2632,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 +page.server.ts"
+      "purpose": "contract-list-and-version — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2644,7 +2644,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 queries.ts"
+      "purpose": "contract-list-and-version — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2656,7 +2656,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 schema.ts"
+      "purpose": "contract-list-and-version — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2668,7 +2668,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 view-model.ts"
+      "purpose": "contract-list-and-version — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2680,7 +2680,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 state.svelte.ts"
+      "purpose": "contract-list-and-version — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2692,7 +2692,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 contract-list-and-version.spec.ts"
+      "purpose": "contract-list-and-version — contract-list-and-version.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2704,7 +2704,7 @@
         "FR-054",
         "FR-060"
       ],
-      "purpose": "contract-list-and-version \u2014 contract-list-and-version.spec.ts"
+      "purpose": "contract-list-and-version — contract-list-and-version.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2716,7 +2716,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 +page.svelte"
+      "purpose": "contract-diff-and-publish — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2728,7 +2728,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 +page.server.ts"
+      "purpose": "contract-diff-and-publish — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2740,7 +2740,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 queries.ts"
+      "purpose": "contract-diff-and-publish — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2752,7 +2752,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 schema.ts"
+      "purpose": "contract-diff-and-publish — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2764,7 +2764,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 view-model.ts"
+      "purpose": "contract-diff-and-publish — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2776,7 +2776,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 state.svelte.ts"
+      "purpose": "contract-diff-and-publish — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2788,7 +2788,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 contract-diff-and-publish.spec.ts"
+      "purpose": "contract-diff-and-publish — contract-diff-and-publish.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2800,7 +2800,7 @@
         "FR-054",
         "FR-058"
       ],
-      "purpose": "contract-diff-and-publish \u2014 contract-diff-and-publish.spec.ts"
+      "purpose": "contract-diff-and-publish — contract-diff-and-publish.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2813,7 +2813,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 +page.svelte"
+      "purpose": "rate-grid-dry-run-commit — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2826,7 +2826,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 +page.server.ts"
+      "purpose": "rate-grid-dry-run-commit — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2839,7 +2839,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 queries.ts"
+      "purpose": "rate-grid-dry-run-commit — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2852,7 +2852,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 schema.ts"
+      "purpose": "rate-grid-dry-run-commit — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2865,7 +2865,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 view-model.ts"
+      "purpose": "rate-grid-dry-run-commit — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2878,7 +2878,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 state.svelte.ts"
+      "purpose": "rate-grid-dry-run-commit — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2891,7 +2891,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 rate-grid-dry-run-commit.spec.ts"
+      "purpose": "rate-grid-dry-run-commit — rate-grid-dry-run-commit.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2904,7 +2904,7 @@
         "FR-059",
         "FR-061"
       ],
-      "purpose": "rate-grid-dry-run-commit \u2014 rate-grid-dry-run-commit.spec.ts"
+      "purpose": "rate-grid-dry-run-commit — rate-grid-dry-run-commit.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2916,7 +2916,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 +page.svelte"
+      "purpose": "rule-list-and-lifecycle — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2928,7 +2928,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 +page.server.ts"
+      "purpose": "rule-list-and-lifecycle — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2940,7 +2940,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 queries.ts"
+      "purpose": "rule-list-and-lifecycle — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2952,7 +2952,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 schema.ts"
+      "purpose": "rule-list-and-lifecycle — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2964,7 +2964,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 view-model.ts"
+      "purpose": "rule-list-and-lifecycle — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2976,7 +2976,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 state.svelte.ts"
+      "purpose": "rule-list-and-lifecycle — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -2988,7 +2988,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 rule-list-and-lifecycle.spec.ts"
+      "purpose": "rule-list-and-lifecycle — rule-list-and-lifecycle.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3000,7 +3000,7 @@
         "FR-068",
         "FR-076"
       ],
-      "purpose": "rule-list-and-lifecycle \u2014 rule-list-and-lifecycle.spec.ts"
+      "purpose": "rule-list-and-lifecycle — rule-list-and-lifecycle.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3012,7 +3012,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 +page.svelte"
+      "purpose": "rule-simulator-explainability — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3024,7 +3024,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 +page.server.ts"
+      "purpose": "rule-simulator-explainability — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3036,7 +3036,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 queries.ts"
+      "purpose": "rule-simulator-explainability — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3048,7 +3048,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 schema.ts"
+      "purpose": "rule-simulator-explainability — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3060,7 +3060,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 view-model.ts"
+      "purpose": "rule-simulator-explainability — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3072,7 +3072,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 state.svelte.ts"
+      "purpose": "rule-simulator-explainability — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3084,7 +3084,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 rule-simulator-explainability.spec.ts"
+      "purpose": "rule-simulator-explainability — rule-simulator-explainability.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3096,7 +3096,7 @@
         "FR-073",
         "FR-088"
       ],
-      "purpose": "rule-simulator-explainability \u2014 rule-simulator-explainability.spec.ts"
+      "purpose": "rule-simulator-explainability — rule-simulator-explainability.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3108,7 +3108,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 +page.svelte"
+      "purpose": "tenant-booking-console — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3120,7 +3120,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 +page.server.ts"
+      "purpose": "tenant-booking-console — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3132,7 +3132,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 queries.ts"
+      "purpose": "tenant-booking-console — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3144,7 +3144,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 schema.ts"
+      "purpose": "tenant-booking-console — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3156,7 +3156,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 view-model.ts"
+      "purpose": "tenant-booking-console — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3168,7 +3168,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 state.svelte.ts"
+      "purpose": "tenant-booking-console — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3180,7 +3180,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 tenant-booking-console.spec.ts"
+      "purpose": "tenant-booking-console — tenant-booking-console.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3192,7 +3192,7 @@
         "FR-108",
         "FR-117"
       ],
-      "purpose": "tenant-booking-console \u2014 tenant-booking-console.spec.ts"
+      "purpose": "tenant-booking-console — tenant-booking-console.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3204,7 +3204,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 +page.svelte"
+      "purpose": "finance-home-invariants — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3216,7 +3216,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 +page.server.ts"
+      "purpose": "finance-home-invariants — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3228,7 +3228,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 queries.ts"
+      "purpose": "finance-home-invariants — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3240,7 +3240,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 schema.ts"
+      "purpose": "finance-home-invariants — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3252,7 +3252,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 view-model.ts"
+      "purpose": "finance-home-invariants — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3264,7 +3264,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 state.svelte.ts"
+      "purpose": "finance-home-invariants — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3276,7 +3276,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 finance-home-invariants.spec.ts"
+      "purpose": "finance-home-invariants — finance-home-invariants.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3288,7 +3288,7 @@
         "FR-127",
         "FR-135"
       ],
-      "purpose": "finance-home-invariants \u2014 finance-home-invariants.spec.ts"
+      "purpose": "finance-home-invariants — finance-home-invariants.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3300,7 +3300,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 +page.svelte"
+      "purpose": "invoice-issue-and-credit — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3312,7 +3312,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 +page.server.ts"
+      "purpose": "invoice-issue-and-credit — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3324,7 +3324,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 queries.ts"
+      "purpose": "invoice-issue-and-credit — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3336,7 +3336,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 schema.ts"
+      "purpose": "invoice-issue-and-credit — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3348,7 +3348,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 view-model.ts"
+      "purpose": "invoice-issue-and-credit — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3360,7 +3360,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 state.svelte.ts"
+      "purpose": "invoice-issue-and-credit — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3372,7 +3372,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 invoice-issue-and-credit.spec.ts"
+      "purpose": "invoice-issue-and-credit — invoice-issue-and-credit.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3384,7 +3384,7 @@
         "FR-130",
         "FR-132"
       ],
-      "purpose": "invoice-issue-and-credit \u2014 invoice-issue-and-credit.spec.ts"
+      "purpose": "invoice-issue-and-credit — invoice-issue-and-credit.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3396,7 +3396,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 +page.svelte"
+      "purpose": "payment-allocate-and-refund — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3408,7 +3408,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 +page.server.ts"
+      "purpose": "payment-allocate-and-refund — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3420,7 +3420,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 queries.ts"
+      "purpose": "payment-allocate-and-refund — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3432,7 +3432,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 schema.ts"
+      "purpose": "payment-allocate-and-refund — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3444,7 +3444,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 view-model.ts"
+      "purpose": "payment-allocate-and-refund — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3456,7 +3456,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 state.svelte.ts"
+      "purpose": "payment-allocate-and-refund — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3468,7 +3468,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 payment-allocate-and-refund.spec.ts"
+      "purpose": "payment-allocate-and-refund — payment-allocate-and-refund.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3480,7 +3480,7 @@
         "FR-133",
         "FR-141"
       ],
-      "purpose": "payment-allocate-and-refund \u2014 payment-allocate-and-refund.spec.ts"
+      "purpose": "payment-allocate-and-refund — payment-allocate-and-refund.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3492,7 +3492,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 +page.svelte"
+      "purpose": "tenant-agent-management — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3504,7 +3504,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 +page.server.ts"
+      "purpose": "tenant-agent-management — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3516,7 +3516,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 queries.ts"
+      "purpose": "tenant-agent-management — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3528,7 +3528,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 schema.ts"
+      "purpose": "tenant-agent-management — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3540,7 +3540,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 view-model.ts"
+      "purpose": "tenant-agent-management — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3552,7 +3552,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 state.svelte.ts"
+      "purpose": "tenant-agent-management — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3564,7 +3564,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 tenant-agent-management.spec.ts"
+      "purpose": "tenant-agent-management — tenant-agent-management.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3576,7 +3576,7 @@
         "FR-018",
         "FR-022"
       ],
-      "purpose": "tenant-agent-management \u2014 tenant-agent-management.spec.ts"
+      "purpose": "tenant-agent-management — tenant-agent-management.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3588,7 +3588,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 +page.svelte"
+      "purpose": "mapping-review-decision — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3600,7 +3600,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 +page.server.ts"
+      "purpose": "mapping-review-decision — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3612,7 +3612,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 queries.ts"
+      "purpose": "mapping-review-decision — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3624,7 +3624,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 schema.ts"
+      "purpose": "mapping-review-decision — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3636,7 +3636,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 view-model.ts"
+      "purpose": "mapping-review-decision — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3648,7 +3648,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 state.svelte.ts"
+      "purpose": "mapping-review-decision — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3660,7 +3660,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 mapping-review-decision.spec.ts"
+      "purpose": "mapping-review-decision — mapping-review-decision.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3672,7 +3672,7 @@
         "FR-095",
         "FR-098"
       ],
-      "purpose": "mapping-review-decision \u2014 mapping-review-decision.spec.ts"
+      "purpose": "mapping-review-decision — mapping-review-decision.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3684,7 +3684,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 +page.svelte"
+      "purpose": "ops-triage-zero-menu — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3696,7 +3696,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 +page.server.ts"
+      "purpose": "ops-triage-zero-menu — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3708,7 +3708,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 queries.ts"
+      "purpose": "ops-triage-zero-menu — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3720,7 +3720,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 schema.ts"
+      "purpose": "ops-triage-zero-menu — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3732,7 +3732,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 view-model.ts"
+      "purpose": "ops-triage-zero-menu — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3744,7 +3744,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 state.svelte.ts"
+      "purpose": "ops-triage-zero-menu — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3756,7 +3756,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 ops-triage-zero-menu.spec.ts"
+      "purpose": "ops-triage-zero-menu — ops-triage-zero-menu.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3768,7 +3768,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-triage-zero-menu \u2014 ops-triage-zero-menu.spec.ts"
+      "purpose": "ops-triage-zero-menu — ops-triage-zero-menu.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3780,7 +3780,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 +page.svelte"
+      "purpose": "ops-case-resolve-and-advance — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3792,7 +3792,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 +page.server.ts"
+      "purpose": "ops-case-resolve-and-advance — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3804,7 +3804,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 queries.ts"
+      "purpose": "ops-case-resolve-and-advance — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3816,7 +3816,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 schema.ts"
+      "purpose": "ops-case-resolve-and-advance — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3828,7 +3828,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 view-model.ts"
+      "purpose": "ops-case-resolve-and-advance — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3840,7 +3840,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 state.svelte.ts"
+      "purpose": "ops-case-resolve-and-advance — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3852,7 +3852,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 ops-case-resolve-and-advance.spec.ts"
+      "purpose": "ops-case-resolve-and-advance — ops-case-resolve-and-advance.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3864,7 +3864,7 @@
         "FR-148",
         "FR-152"
       ],
-      "purpose": "ops-case-resolve-and-advance \u2014 ops-case-resolve-and-advance.spec.ts"
+      "purpose": "ops-case-resolve-and-advance — ops-case-resolve-and-advance.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3876,7 +3876,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 +page.svelte"
+      "purpose": "package-build-and-sell — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3888,7 +3888,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 +page.server.ts"
+      "purpose": "package-build-and-sell — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3900,7 +3900,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 queries.ts"
+      "purpose": "package-build-and-sell — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3912,7 +3912,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 schema.ts"
+      "purpose": "package-build-and-sell — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3924,7 +3924,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 view-model.ts"
+      "purpose": "package-build-and-sell — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3936,7 +3936,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 state.svelte.ts"
+      "purpose": "package-build-and-sell — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3948,7 +3948,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 package-build-and-sell.spec.ts"
+      "purpose": "package-build-and-sell — package-build-and-sell.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3960,7 +3960,7 @@
         "FR-048",
         "FR-053"
       ],
-      "purpose": "package-build-and-sell \u2014 package-build-and-sell.spec.ts"
+      "purpose": "package-build-and-sell — package-build-and-sell.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3972,7 +3972,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 +page.svelte"
+      "purpose": "report-build-and-export — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3984,7 +3984,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 +page.server.ts"
+      "purpose": "report-build-and-export — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -3996,7 +3996,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 queries.ts"
+      "purpose": "report-build-and-export — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4008,7 +4008,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 schema.ts"
+      "purpose": "report-build-and-export — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4020,7 +4020,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 view-model.ts"
+      "purpose": "report-build-and-export — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4032,7 +4032,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 state.svelte.ts"
+      "purpose": "report-build-and-export — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4044,7 +4044,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 report-build-and-export.spec.ts"
+      "purpose": "report-build-and-export — report-build-and-export.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4056,7 +4056,7 @@
         "FR-153",
         "FR-158"
       ],
-      "purpose": "report-build-and-export \u2014 report-build-and-export.spec.ts"
+      "purpose": "report-build-and-export — report-build-and-export.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4068,7 +4068,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 +page.svelte"
+      "purpose": "promo-pool-and-redemption — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4080,7 +4080,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 +page.server.ts"
+      "purpose": "promo-pool-and-redemption — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4092,7 +4092,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 queries.ts"
+      "purpose": "promo-pool-and-redemption — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4104,7 +4104,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 schema.ts"
+      "purpose": "promo-pool-and-redemption — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4116,7 +4116,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 view-model.ts"
+      "purpose": "promo-pool-and-redemption — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4128,7 +4128,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 state.svelte.ts"
+      "purpose": "promo-pool-and-redemption — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4140,7 +4140,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 promo-pool-and-redemption.spec.ts"
+      "purpose": "promo-pool-and-redemption — promo-pool-and-redemption.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4152,7 +4152,7 @@
         "FR-230",
         "FR-232"
       ],
-      "purpose": "promo-pool-and-redemption \u2014 promo-pool-and-redemption.spec.ts"
+      "purpose": "promo-pool-and-redemption — promo-pool-and-redemption.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4164,7 +4164,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 +page.svelte"
+      "purpose": "dispatch-assign-and-complete — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4176,7 +4176,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 +page.server.ts"
+      "purpose": "dispatch-assign-and-complete — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4188,7 +4188,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 queries.ts"
+      "purpose": "dispatch-assign-and-complete — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4200,7 +4200,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 schema.ts"
+      "purpose": "dispatch-assign-and-complete — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4212,7 +4212,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 view-model.ts"
+      "purpose": "dispatch-assign-and-complete — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4224,7 +4224,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 state.svelte.ts"
+      "purpose": "dispatch-assign-and-complete — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4236,7 +4236,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 dispatch-assign-and-complete.spec.ts"
+      "purpose": "dispatch-assign-and-complete — dispatch-assign-and-complete.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4248,7 +4248,7 @@
         "FR-214",
         "FR-221"
       ],
-      "purpose": "dispatch-assign-and-complete \u2014 dispatch-assign-and-complete.spec.ts"
+      "purpose": "dispatch-assign-and-complete — dispatch-assign-and-complete.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4260,7 +4260,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 +page.svelte"
+      "purpose": "migration-stage-to-activate — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4272,7 +4272,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 +page.server.ts"
+      "purpose": "migration-stage-to-activate — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4284,7 +4284,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 queries.ts"
+      "purpose": "migration-stage-to-activate — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4296,7 +4296,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 schema.ts"
+      "purpose": "migration-stage-to-activate — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4308,7 +4308,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 view-model.ts"
+      "purpose": "migration-stage-to-activate — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4320,7 +4320,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 state.svelte.ts"
+      "purpose": "migration-stage-to-activate — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4332,7 +4332,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 migration-stage-to-activate.spec.ts"
+      "purpose": "migration-stage-to-activate — migration-stage-to-activate.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4344,7 +4344,7 @@
         "FR-222",
         "FR-225"
       ],
-      "purpose": "migration-stage-to-activate \u2014 migration-stage-to-activate.spec.ts"
+      "purpose": "migration-stage-to-activate — migration-stage-to-activate.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4356,7 +4356,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 +page.svelte"
+      "purpose": "accounting-clear-export-match — +page.svelte"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4368,7 +4368,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 +page.server.ts"
+      "purpose": "accounting-clear-export-match — +page.server.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4380,7 +4380,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 queries.ts"
+      "purpose": "accounting-clear-export-match — queries.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4392,7 +4392,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 schema.ts"
+      "purpose": "accounting-clear-export-match — schema.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4404,7 +4404,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 view-model.ts"
+      "purpose": "accounting-clear-export-match — view-model.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4416,7 +4416,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 state.svelte.ts"
+      "purpose": "accounting-clear-export-match — state.svelte.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4428,7 +4428,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 accounting-clear-export-match.spec.ts"
+      "purpose": "accounting-clear-export-match — accounting-clear-export-match.spec.ts"
     },
     {
       "repository": "xtrip-tenant-web-svelte",
@@ -4440,7 +4440,7 @@
         "FR-226",
         "FR-229"
       ],
-      "purpose": "accounting-clear-export-match \u2014 accounting-clear-export-match.spec.ts"
+      "purpose": "accounting-clear-export-match — accounting-clear-export-match.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4451,7 +4451,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 +page.svelte"
+      "purpose": "platform-admin-auth — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4462,7 +4462,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 +page.server.ts"
+      "purpose": "platform-admin-auth — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4473,7 +4473,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 queries.ts"
+      "purpose": "platform-admin-auth — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4484,7 +4484,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 schema.ts"
+      "purpose": "platform-admin-auth — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4495,7 +4495,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 view-model.ts"
+      "purpose": "platform-admin-auth — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4506,7 +4506,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 state.svelte.ts"
+      "purpose": "platform-admin-auth — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4517,7 +4517,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 platform-admin-auth.spec.ts"
+      "purpose": "platform-admin-auth — platform-admin-auth.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4528,7 +4528,7 @@
       "requirements": [
         "FR-013"
       ],
-      "purpose": "platform-admin-auth \u2014 platform-admin-auth.spec.ts"
+      "purpose": "platform-admin-auth — platform-admin-auth.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4540,7 +4540,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 +page.svelte"
+      "purpose": "platform-tenant-list — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4552,7 +4552,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 +page.server.ts"
+      "purpose": "platform-tenant-list — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4564,7 +4564,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 queries.ts"
+      "purpose": "platform-tenant-list — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4576,7 +4576,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 schema.ts"
+      "purpose": "platform-tenant-list — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4588,7 +4588,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 view-model.ts"
+      "purpose": "platform-tenant-list — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4600,7 +4600,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 state.svelte.ts"
+      "purpose": "platform-tenant-list — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4612,7 +4612,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 platform-tenant-list.spec.ts"
+      "purpose": "platform-tenant-list — platform-tenant-list.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4624,7 +4624,7 @@
         "FR-014",
         "FR-199"
       ],
-      "purpose": "platform-tenant-list \u2014 platform-tenant-list.spec.ts"
+      "purpose": "platform-tenant-list — platform-tenant-list.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4636,7 +4636,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 +page.svelte"
+      "purpose": "platform-tenant-360 — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4648,7 +4648,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 +page.server.ts"
+      "purpose": "platform-tenant-360 — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4660,7 +4660,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 queries.ts"
+      "purpose": "platform-tenant-360 — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4672,7 +4672,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 schema.ts"
+      "purpose": "platform-tenant-360 — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4684,7 +4684,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 view-model.ts"
+      "purpose": "platform-tenant-360 — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4696,7 +4696,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 state.svelte.ts"
+      "purpose": "platform-tenant-360 — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4708,7 +4708,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 platform-tenant-360.spec.ts"
+      "purpose": "platform-tenant-360 — platform-tenant-360.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4720,7 +4720,7 @@
         "FR-199",
         "FR-200"
       ],
-      "purpose": "platform-tenant-360 \u2014 platform-tenant-360.spec.ts"
+      "purpose": "platform-tenant-360 — platform-tenant-360.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4732,7 +4732,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 +page.svelte"
+      "purpose": "platform-masterdata-stewardship — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4744,7 +4744,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 +page.server.ts"
+      "purpose": "platform-masterdata-stewardship — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4756,7 +4756,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 queries.ts"
+      "purpose": "platform-masterdata-stewardship — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4768,7 +4768,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 schema.ts"
+      "purpose": "platform-masterdata-stewardship — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4780,7 +4780,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 view-model.ts"
+      "purpose": "platform-masterdata-stewardship — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4792,7 +4792,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 state.svelte.ts"
+      "purpose": "platform-masterdata-stewardship — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4804,7 +4804,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 platform-masterdata-stewardship.spec.ts"
+      "purpose": "platform-masterdata-stewardship — platform-masterdata-stewardship.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4816,7 +4816,7 @@
         "FR-023",
         "FR-029"
       ],
-      "purpose": "platform-masterdata-stewardship \u2014 platform-masterdata-stewardship.spec.ts"
+      "purpose": "platform-masterdata-stewardship — platform-masterdata-stewardship.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4828,7 +4828,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 +page.svelte"
+      "purpose": "platform-plan-entitlements — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4840,7 +4840,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 +page.server.ts"
+      "purpose": "platform-plan-entitlements — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4852,7 +4852,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 queries.ts"
+      "purpose": "platform-plan-entitlements — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4864,7 +4864,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 schema.ts"
+      "purpose": "platform-plan-entitlements — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4876,7 +4876,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 view-model.ts"
+      "purpose": "platform-plan-entitlements — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4888,7 +4888,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 state.svelte.ts"
+      "purpose": "platform-plan-entitlements — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4900,7 +4900,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 platform-plan-entitlements.spec.ts"
+      "purpose": "platform-plan-entitlements — platform-plan-entitlements.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4912,7 +4912,7 @@
         "FR-142",
         "FR-147"
       ],
-      "purpose": "platform-plan-entitlements \u2014 platform-plan-entitlements.spec.ts"
+      "purpose": "platform-plan-entitlements — platform-plan-entitlements.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4924,7 +4924,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 +page.svelte"
+      "purpose": "platform-ops-health — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4936,7 +4936,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 +page.server.ts"
+      "purpose": "platform-ops-health — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4948,7 +4948,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 queries.ts"
+      "purpose": "platform-ops-health — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4960,7 +4960,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 schema.ts"
+      "purpose": "platform-ops-health — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4972,7 +4972,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 view-model.ts"
+      "purpose": "platform-ops-health — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4984,7 +4984,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 state.svelte.ts"
+      "purpose": "platform-ops-health — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -4996,7 +4996,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 platform-ops-health.spec.ts"
+      "purpose": "platform-ops-health — platform-ops-health.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5008,7 +5008,7 @@
         "FR-160",
         "FR-198"
       ],
-      "purpose": "platform-ops-health \u2014 platform-ops-health.spec.ts"
+      "purpose": "platform-ops-health — platform-ops-health.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5020,7 +5020,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 +page.svelte"
+      "purpose": "supplier-plugin-ops-control — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5032,7 +5032,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 +page.server.ts"
+      "purpose": "supplier-plugin-ops-control — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5044,7 +5044,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 queries.ts"
+      "purpose": "supplier-plugin-ops-control — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5056,7 +5056,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 schema.ts"
+      "purpose": "supplier-plugin-ops-control — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5068,7 +5068,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 view-model.ts"
+      "purpose": "supplier-plugin-ops-control — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5080,7 +5080,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 state.svelte.ts"
+      "purpose": "supplier-plugin-ops-control — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5092,7 +5092,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 supplier-plugin-ops-control.spec.ts"
+      "purpose": "supplier-plugin-ops-control — supplier-plugin-ops-control.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5104,7 +5104,7 @@
         "FR-089",
         "FR-094"
       ],
-      "purpose": "supplier-plugin-ops-control \u2014 supplier-plugin-ops-control.spec.ts"
+      "purpose": "supplier-plugin-ops-control — supplier-plugin-ops-control.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5116,7 +5116,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 +page.svelte"
+      "purpose": "platform-dlq-replay-audited — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5128,7 +5128,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 +page.server.ts"
+      "purpose": "platform-dlq-replay-audited — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5140,7 +5140,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 queries.ts"
+      "purpose": "platform-dlq-replay-audited — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5152,7 +5152,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 schema.ts"
+      "purpose": "platform-dlq-replay-audited — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5164,7 +5164,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 view-model.ts"
+      "purpose": "platform-dlq-replay-audited — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5176,7 +5176,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 state.svelte.ts"
+      "purpose": "platform-dlq-replay-audited — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5188,7 +5188,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 platform-dlq-replay-audited.spec.ts"
+      "purpose": "platform-dlq-replay-audited — platform-dlq-replay-audited.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5200,7 +5200,7 @@
         "FR-162",
         "FR-198"
       ],
-      "purpose": "platform-dlq-replay-audited \u2014 platform-dlq-replay-audited.spec.ts"
+      "purpose": "platform-dlq-replay-audited — platform-dlq-replay-audited.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5211,7 +5211,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 +page.svelte"
+      "purpose": "platform-impersonation-banner-and-audit — +page.svelte"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5222,7 +5222,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 +page.server.ts"
+      "purpose": "platform-impersonation-banner-and-audit — +page.server.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5233,7 +5233,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 queries.ts"
+      "purpose": "platform-impersonation-banner-and-audit — queries.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5244,7 +5244,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 schema.ts"
+      "purpose": "platform-impersonation-banner-and-audit — schema.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5255,7 +5255,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 view-model.ts"
+      "purpose": "platform-impersonation-banner-and-audit — view-model.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5266,7 +5266,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 state.svelte.ts"
+      "purpose": "platform-impersonation-banner-and-audit — state.svelte.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5277,7 +5277,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 platform-impersonation-banner-and-audit.spec.ts"
+      "purpose": "platform-impersonation-banner-and-audit — platform-impersonation-banner-and-audit.spec.ts"
     },
     {
       "repository": "xtrip-admin-web-svelte",
@@ -5288,7 +5288,7 @@
       "requirements": [
         "FR-197"
       ],
-      "purpose": "platform-impersonation-banner-and-audit \u2014 platform-impersonation-banner-and-audit.spec.ts"
+      "purpose": "platform-impersonation-banner-and-audit — platform-impersonation-banner-and-audit.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5300,7 +5300,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 +page.svelte"
+      "purpose": "storefront-home-brand-locale — +page.svelte"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5312,7 +5312,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 +page.server.ts"
+      "purpose": "storefront-home-brand-locale — +page.server.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5324,7 +5324,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 queries.ts"
+      "purpose": "storefront-home-brand-locale — queries.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5336,7 +5336,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 schema.ts"
+      "purpose": "storefront-home-brand-locale — schema.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5348,7 +5348,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 view-model.ts"
+      "purpose": "storefront-home-brand-locale — view-model.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5360,7 +5360,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 state.svelte.ts"
+      "purpose": "storefront-home-brand-locale — state.svelte.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5372,7 +5372,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 storefront-home-brand-locale.spec.ts"
+      "purpose": "storefront-home-brand-locale — storefront-home-brand-locale.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5384,7 +5384,7 @@
         "FR-175",
         "FR-178"
       ],
-      "purpose": "storefront-home-brand-locale \u2014 storefront-home-brand-locale.spec.ts"
+      "purpose": "storefront-home-brand-locale — storefront-home-brand-locale.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5396,7 +5396,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 +page.svelte"
+      "purpose": "storefront-search-to-offer — +page.svelte"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5408,7 +5408,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 +page.server.ts"
+      "purpose": "storefront-search-to-offer — +page.server.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5420,7 +5420,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 queries.ts"
+      "purpose": "storefront-search-to-offer — queries.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5432,7 +5432,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 schema.ts"
+      "purpose": "storefront-search-to-offer — schema.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5444,7 +5444,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 view-model.ts"
+      "purpose": "storefront-search-to-offer — view-model.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5456,7 +5456,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 state.svelte.ts"
+      "purpose": "storefront-search-to-offer — state.svelte.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5468,7 +5468,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 storefront-search-to-offer.spec.ts"
+      "purpose": "storefront-search-to-offer — storefront-search-to-offer.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5480,7 +5480,7 @@
         "FR-176",
         "FR-177"
       ],
-      "purpose": "storefront-search-to-offer \u2014 storefront-search-to-offer.spec.ts"
+      "purpose": "storefront-search-to-offer — storefront-search-to-offer.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5492,7 +5492,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 +page.svelte"
+      "purpose": "storefront-product-detail-seo — +page.svelte"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5504,7 +5504,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 +page.server.ts"
+      "purpose": "storefront-product-detail-seo — +page.server.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5516,7 +5516,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 queries.ts"
+      "purpose": "storefront-product-detail-seo — queries.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5528,7 +5528,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 schema.ts"
+      "purpose": "storefront-product-detail-seo — schema.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5540,7 +5540,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 view-model.ts"
+      "purpose": "storefront-product-detail-seo — view-model.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5552,7 +5552,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 state.svelte.ts"
+      "purpose": "storefront-product-detail-seo — state.svelte.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5564,7 +5564,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 storefront-product-detail-seo.spec.ts"
+      "purpose": "storefront-product-detail-seo — storefront-product-detail-seo.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5576,7 +5576,7 @@
         "FR-176",
         "FR-178"
       ],
-      "purpose": "storefront-product-detail-seo \u2014 storefront-product-detail-seo.spec.ts"
+      "purpose": "storefront-product-detail-seo — storefront-product-detail-seo.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5588,7 +5588,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 +page.svelte"
+      "purpose": "storefront-checkout-pay-confirm — +page.svelte"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5600,7 +5600,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 +page.server.ts"
+      "purpose": "storefront-checkout-pay-confirm — +page.server.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5612,7 +5612,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 queries.ts"
+      "purpose": "storefront-checkout-pay-confirm — queries.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5624,7 +5624,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 schema.ts"
+      "purpose": "storefront-checkout-pay-confirm — schema.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5636,7 +5636,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 view-model.ts"
+      "purpose": "storefront-checkout-pay-confirm — view-model.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5648,7 +5648,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 state.svelte.ts"
+      "purpose": "storefront-checkout-pay-confirm — state.svelte.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5660,7 +5660,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 storefront-checkout-pay-confirm.spec.ts"
+      "purpose": "storefront-checkout-pay-confirm — storefront-checkout-pay-confirm.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5672,7 +5672,7 @@
         "FR-177",
         "FR-179"
       ],
-      "purpose": "storefront-checkout-pay-confirm \u2014 storefront-checkout-pay-confirm.spec.ts"
+      "purpose": "storefront-checkout-pay-confirm — storefront-checkout-pay-confirm.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5684,7 +5684,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 +page.svelte"
+      "purpose": "storefront-booking-self-service — +page.svelte"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5696,7 +5696,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 +page.server.ts"
+      "purpose": "storefront-booking-self-service — +page.server.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5708,7 +5708,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 queries.ts"
+      "purpose": "storefront-booking-self-service — queries.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5720,7 +5720,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 schema.ts"
+      "purpose": "storefront-booking-self-service — schema.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5732,7 +5732,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 view-model.ts"
+      "purpose": "storefront-booking-self-service — view-model.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5744,7 +5744,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 state.svelte.ts"
+      "purpose": "storefront-booking-self-service — state.svelte.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5756,7 +5756,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 storefront-booking-self-service.spec.ts"
+      "purpose": "storefront-booking-self-service — storefront-booking-self-service.spec.ts"
     },
     {
       "repository": "xtrip-b2c-storefront-svelte",
@@ -5768,7 +5768,7 @@
         "FR-179",
         "FR-180"
       ],
-      "purpose": "storefront-booking-self-service \u2014 storefront-booking-self-service.spec.ts"
+      "purpose": "storefront-booking-self-service — storefront-booking-self-service.spec.ts"
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -7348,7 +7348,8 @@
       "modification_tasks": [
         "F0.2",
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7469,7 +7470,8 @@
       "modification_tasks": [
         "F0.2",
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7489,7 +7491,8 @@
       "modification_tasks": [
         "F0.2",
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7582,7 +7585,8 @@
       "modification_tasks": [
         "F0.2",
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7724,7 +7728,8 @@
       "purpose": "Foundation workbench landing page",
       "modification_tasks": [
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7874,7 +7879,8 @@
       "purpose": "Direct-load/action, accessibility, RTL and responsive journey",
       "modification_tasks": [
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7893,7 +7899,8 @@
       "purpose": "Reproducible CI gates",
       "modification_tasks": [
         "F0.2",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7913,7 +7920,8 @@
       "modification_tasks": [
         "F0.2",
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -7933,7 +7941,8 @@
       "modification_tasks": [
         "F0.2",
         "F0.3",
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -8320,7 +8329,10 @@
         "NFR-06"
       ],
       "purpose": "F0.3 design-system foundation",
-      "task": "F0.3"
+      "task": "F0.3",
+      "modification_tasks": [
+        "F0.5"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -8359,7 +8371,10 @@
         "NFR-06"
       ],
       "purpose": "F0.3 design-system foundation",
-      "task": "F0.3"
+      "task": "F0.3",
+      "modification_tasks": [
+        "F0.5"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -8374,7 +8389,8 @@
       "purpose": "F0.3 design-system foundation",
       "task": "F0.3",
       "modification_tasks": [
-        "F0.4"
+        "F0.4",
+        "F0.5"
       ]
     },
     {
@@ -8427,7 +8443,10 @@
         "NFR-06"
       ],
       "purpose": "F0.3 design-system foundation",
-      "task": "F0.3"
+      "task": "F0.3",
+      "modification_tasks": [
+        "F0.5"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -8459,7 +8478,10 @@
         "SDR-019",
         "SDR-039"
       ],
-      "purpose": "Approved F0.4 session runtime and verification"
+      "purpose": "Approved F0.4 session runtime and verification",
+      "modification_tasks": [
+        "F0.5"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -8491,7 +8513,10 @@
         "SDR-019",
         "SDR-039"
       ],
-      "purpose": "Approved F0.4 session runtime and verification"
+      "purpose": "Approved F0.4 session runtime and verification",
+      "modification_tasks": [
+        "F0.5"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -8875,7 +8900,10 @@
         "SDR-019",
         "SDR-039"
       ],
-      "purpose": "Approved F0.4 session runtime and verification"
+      "purpose": "Approved F0.4 session runtime and verification",
+      "modification_tasks": [
+        "F0.5"
+      ]
     },
     {
       "repository": "xtrip-frontend-core-svelte",
@@ -8892,6 +8920,312 @@
         "SDR-039"
       ],
       "purpose": "Approved F0.4 session runtime and verification"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "contracts/quality-gates.json",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/quality-accessibility.spec.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/quality-localization.spec.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/quality-performance.spec.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/quality-visual.spec.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/quality-fixtures.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/component/localization.spec.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "test/architecture/quality-gates.spec.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "docs/quality-gates.md",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "docs/manual-accessibility.md",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/en-390.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/en-1440.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/ar-390.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/ar-1440.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/th-390.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/th-1440.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/en-XA-390.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "e2e/visual-baselines/en-XA-1440.png",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-021",
+        "SDR-022",
+        "SDR-023",
+        "SDR-024",
+        "SDR-038",
+        "SDR-040"
+      ],
+      "purpose": "Approved F0.5 quality gate implementation and evidence"
     }
   ]
 }

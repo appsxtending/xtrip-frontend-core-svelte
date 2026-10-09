@@ -1,4 +1,9 @@
 <script lang="ts">
+  let hydrationMs = $state<number | undefined>();
+  onMount(() => {
+    hydrationMs = performance.now();
+  });
+  import { onMount } from 'svelte';
   import {
     presentationCopy,
     uiCopy,
@@ -129,6 +134,8 @@
   }
   const names = Object.keys(stories);
 </script>
+
+<span hidden data-hydration-ms={hydrationMs}></span>
 
 <svelte:head
   ><title>XTrip360 · {copy.workbench}</title><meta

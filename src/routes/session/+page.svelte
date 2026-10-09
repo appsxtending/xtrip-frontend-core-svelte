@@ -1,10 +1,14 @@
 <script lang="ts">
+  let hydrationMs = $state<number | undefined>();
+  onMount(() => {
+    hydrationMs = performance.now();
+  });
   import { onMount, untrack } from 'svelte';
-  import { uiCopy } from '@xtrip/i18n';
+  import { sessionCopy, formatFreshness } from '@xtrip/i18n';
   import { reconciliation } from '#lib/session/reconciliation.svelte.ts';
   import { sessionPresentation } from '#lib/session/session.svelte.ts';
   let { data, form } = $props();
-  const copy = $derived(uiCopy.session(data.locale));
+  const copy = $derived(sessionCopy(data.locale));
   const initial = untrack(() => data);
   const session = sessionPresentation(initial.session);
   const poll = reconciliation(() => data.initial);
@@ -36,6 +40,8 @@
   });
 </script>
 
+<span hidden data-hydration-ms={hydrationMs}></span>
+
 <svelte:head><title>{copy.session} · XTrip</title></svelte:head>
 <main class="ui-panel ui-stack">
   <a class="ui-link" href="/">XTrip</a>
@@ -63,7 +69,7 @@
     <p>
       {copy.freshness}:
       <time datetime={new Date(poll.query.data?.updatedAt ?? 0).toISOString()}
-        >{new Date(poll.query.data?.updatedAt ?? 0).toISOString()}</time
+        >{formatFreshness(poll.query.data?.updatedAt ?? 0, data.locale)}</time
       >
     </p>
     <button

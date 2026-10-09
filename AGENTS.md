@@ -7,3 +7,5 @@ F0.2: generated artifacts are never edited directly. Run npm run generate:api af
 F0.3: UI components are public presentation-only exports. Workbench stories and server code remain excluded from package files. Use semantic token utilities and supplied data/callbacks; never calculate prices or infer principal permissions. Preserve all-family SSR/browser coverage and dialog focus behavior.
 
 F0.4: session runtime belongs to @xtrip/web-runtime, never UI exports. Require verified claims and fail closed on missing trusted key configuration. Do not retry refresh tokens after ambiguous failures. Preserve one-use CSRF on all actions and finite read-only polling. The process-local workbench store is not a distributed deployment adapter.
+
+F0.5: quality limits and matrix coverage are governed by contracts/quality-gates.json. Never silently update visual references during normal CI. Candidate references require visual review and a subsequent normal comparison pass. Record unperformed manual assistive-technology checks explicitly.

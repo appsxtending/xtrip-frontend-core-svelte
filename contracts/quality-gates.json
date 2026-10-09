@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "journey": "core-quality-gates",
+  "locales": [
+    "en",
+    "ar",
+    "th",
+    "en-XA"
+  ],
+  "families": [
+    "app-shell",
+    "bulk-action-bar",
+    "button",
+    "calendar",
+    "chart-shell",
+    "command-palette",
+    "data-grid",
+    "date-picker",
+    "date-range-picker",
+    "deadline-chip",
+    "dialog",
+    "document-status",
+    "drawer",
+    "drift-diff",
+    "error-summary",
+    "file-import-review",
+    "form-field",
+    "geography-picker",
+    "link",
+    "map-shell",
+    "market-picker",
+    "menu",
+    "money",
+    "notification-center",
+    "occupancy-editor",
+    "popover",
+    "price-breakdown",
+    "price-drift-diff",
+    "pricing-stage-trace",
+    "rate-grid",
+    "remote-state",
+    "responsive-record-list",
+    "skeleton",
+    "status-chip",
+    "tabs",
+    "theme-provider",
+    "timeline"
+  ],
+  "matrix": [
+    {
+      "id": "english-phone",
+      "locale": "en",
+      "width": 320,
+      "theme": "light",
+      "brand": "forest",
+      "density": "comfortable"
+    },
+    {
+      "id": "arabic-tablet",
+      "locale": "ar",
+      "width": 768,
+      "theme": "dark",
+      "brand": "indigo",
+      "density": "compact"
+    },
+    {
+      "id": "thai-desktop",
+      "locale": "th",
+      "width": 1440,
+      "theme": "light",
+      "brand": "indigo",
+      "density": "comfortable"
+    },
+    {
+      "id": "expanded-phone",
+      "locale": "en-XA",
+      "width": 390,
+      "theme": "dark",
+      "brand": "forest",
+      "density": "compact"
+    }
+  ],
+  "routes": [
+    {
+      "id": "foundation",
+      "path": "/"
+    },
+    {
+      "id": "login",
+      "path": "/session/login"
+    },
+    {
+      "id": "session",
+      "path": "/session",
+      "authenticated": true
+    }
+  ],
+  "limits": {
+    "jsBytes": 200000,
+    "cssBytes": 80000,
+    "imageBytes": 200000,
+    "ttfbMs": 2000,
+    "lcpMs": 2500,
+    "cls": 0.1,
+    "hydrationMs": 3000,
+    "interactionMs": 200,
+    "directApiRequests": 0,
+    "initialPolls": 0
+  },
+  "visual": {
+    "runner": "ubuntu-24.04",
+    "browser": "locked Playwright Chromium",
+    "widths": [
+      390,
+      1440
+    ],
+    "section": "data-grid",
+    "maxDiffPixels": 0,
+    "threshold": 0.2
+  },
+  "manualEvidence": "docs/manual-accessibility.md",
+  "fieldINP": "not measured; lab interaction latency only"
+}

@@ -1,10 +1,18 @@
 name: Core frontend gates
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      visual_candidates:
+        description: Generate visual candidates for manual review (not an acceptance run)
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,7 +34,26 @@ jobs:
         run: npm run build
       - name: Foundation browser regression
         if: ${{ !cancelled() }}
+        env:
+          PLAYWRIGHT_HTML_OUTPUT_DIR: playwright-report/foundation
         run: npm run test:e2e
+      - name: Visual regression (missing or changed references fail)
+        if: ${{ !cancelled() && inputs.visual_candidates != true }}
+        env:
+          PLAYWRIGHT_HTML_OUTPUT_DIR: playwright-report/visual
+        run: npm run test:visual
+      - name: Generate visual candidates for review
+        if: ${{ !cancelled() && inputs.visual_candidates == true }}
+        env:
+          XTRIP_VISUAL_CANDIDATES: 'true'
+          PLAYWRIGHT_HTML_OUTPUT_DIR: playwright-report/visual-candidates
+        run: npm run test:visual
+      - name: Retain candidate reference images
+        if: ${{ inputs.visual_candidates == true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-candidates
+          path: e2e/visual-baselines
       - uses: actions/upload-artifact@v4
         if: always()
         with:
