@@ -49,7 +49,7 @@ jobs:
           PLAYWRIGHT_HTML_OUTPUT_DIR: playwright-report/visual-candidates
         run: npm run test:visual
       - name: Retain candidate reference images
-        if: ${{ inputs.visual_candidates == true }}
+        if: ${{ !cancelled() && inputs.visual_candidates == true }}
         uses: actions/upload-artifact@v4
         with:
           name: visual-candidates

@@ -175,7 +175,7 @@
   grid-template-columns: 16rem minmax(0, 1fr);
   min-block-size: 100vh;
   @media (max-width: 900px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 @utility ui-sidebar {
@@ -200,6 +200,7 @@
   }
 }
 @utility ui-brand {
+  flex-wrap: wrap;
   display: flex;
   gap: 0.4rem;
   align-items: center;
@@ -261,6 +262,9 @@
   }
 }
 @utility ui-main {
+  min-inline-size: 0;
+  inline-size: 100%;
+  grid-template-columns: minmax(0, 1fr);
   display: grid;
   gap: 1.5rem;
   max-inline-size: 90rem;
@@ -282,6 +286,7 @@
   }
 }
 @utility ui-stack {
+  grid-template-columns: minmax(0, 1fr);
   display: grid;
   gap: var(--gap);
   min-inline-size: 0;
@@ -295,7 +300,7 @@
 }
 @utility ui-controls {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
   align-items: end;
   gap: 1rem;
 }
@@ -516,6 +521,9 @@
   gap: 0.75rem;
 }
 @utility ui-timeline {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+  grid-template-columns: minmax(0, 1fr);
   padding-inline-start: 1.5rem;
   display: grid;
   gap: 1.25rem;

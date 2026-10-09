@@ -9226,6 +9226,20 @@
         "SDR-040"
       ],
       "purpose": "Approved F0.5 quality gate implementation and evidence"
+    },
+    {
+      "repository": "xtrip-frontend-core-svelte",
+      "path": "packages/i18n/src/session.ts",
+      "owner": "quality-gates",
+      "task": "F0.5",
+      "route": null,
+      "journey": "core-quality-gates",
+      "requirements": [
+        "SDR-023",
+        "SDR-024",
+        "SDR-040"
+      ],
+      "purpose": "Owner-approved session translation split for per-route bundle budget"
     }
   ]
 }
