@@ -44,7 +44,7 @@ This is the shared presentation foundation. Virtualized business rate grids, rea
 
 Central component tests exercise state changes and exact decimal preservation; the SSR suite renders every family, and the browser suite audits every family plus dialog focus, RTL keyboard navigation, URL history and no-JavaScript behavior. The npm package file allowlist excludes server code, routes, API packages and demonstration stories. The existing real-API project remains separate from all illustrative UI stories.
 
-## F0.4 session integration (acceptance in progress)
+## F0.4 session integration
 
 The separate `@xtrip/web-runtime/server` package owns session cookies, RS256 verification, exact permission guards, CSRF, refresh serialization and generated-client calls. Its `/errors`, `/types` and `/reconciliation` exports are safe for browser use. UI component exports still contain no API/session runtime. `/session/login`, `/session` and `/session/poll` are opt-in core integration surfaces, not completed tenant/agent/admin applications.
 
@@ -59,3 +59,5 @@ Every same-origin state-changing action, including the appearance preview, now c
 Reconciliation uses a component-owned TanStack query cache seeded with SSR data. Keys include the verified principal/tenant/permissions fingerprint. Polling runs at ten-second intervals for at most five attempts or sixty seconds, pauses while hidden/offline, cancels on unmount, honors bounded retry-after, and stops on terminal/auth errors. It is a provisional read-polling adapter, not a push transport. No mutation is retried optimistically.
 
 `npm run test:e2e` starts an isolated canonical-schema-validated API fixture with synthetic signing keys. `npm run test:session:real` instead starts the built SSR host with ignored `.env.session-test` and uses the existing ignored `.env.test` profile. That project disables screenshots, traces and video; no credentials belong in retained evidence. The existing `npm run test:api:real` remains a separate direct generated-client regression. Final F0.4 evidence and any unresolved configuration are recorded in the authority checkpoint.
+
+F0.4 acceptance completed on 2026-10-09 after the owner configured matching API signing keys and restarted the API. The mock-free SSR login, protected read, refresh, polling and logout journey passed (one test, 6.9 seconds); the separate direct API project passed all three checks (6.8 seconds). Frontend configuration contains only the trusted public verification key and an independent session cookie key in ignored `.env.session-test`. No backend files were modified. Deterministic acceptance comprises 53 tests and 55 browser checks with green hosted CI on implementation commit `563299326206a49cc830902fc31cd29ad8ad5d94`. Existing F0.2 final-release deferrals and the single-process workbench limitation remain unchanged.
