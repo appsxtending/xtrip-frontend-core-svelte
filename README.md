@@ -62,6 +62,6 @@ Reconciliation uses a component-owned TanStack query cache seeded with SSR data.
 
 F0.4 acceptance completed on 2026-10-09 after the owner configured matching API signing keys and restarted the API. The mock-free SSR login, protected read, refresh, polling and logout journey passed (one test, 6.9 seconds); the separate direct API project passed all three checks (6.8 seconds). Frontend configuration contains only the trusted public verification key and an independent session cookie key in ignored `.env.session-test`. No backend files were modified. Deterministic acceptance comprises 53 tests and 55 browser checks with green hosted CI on implementation commit `563299326206a49cc830902fc31cd29ad8ad5d94`. Existing F0.2 final-release deferrals and the single-process workbench limitation remain unchanged.
 
-## F0.5 quality gates (acceptance in progress)
+## F0.5 quality gates
 
 The executable quality contract, expanded accessibility/localization checks, per-route performance evidence and reviewed Linux visual references are described in [docs/quality-gates.md](docs/quality-gates.md). Manual assistive-technology evidence is explicitly tracked in [docs/manual-accessibility.md](docs/manual-accessibility.md); automated passes do not imply full product certification.
