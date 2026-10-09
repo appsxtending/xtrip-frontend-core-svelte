@@ -7,7 +7,10 @@ for (const locale of gates.locales)
     await page.setViewportSize({ width: 390, height: 1000 });
     await page.goto('/?locale=' + locale);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(uiCopy(language).workbench);
-    await page.goto('/session/login?locale=' + locale);
+    await page
+      .getByRole('link', { name: uiCopy(language).sessionIntegration, exact: true })
+      .click();
+    await expect(page).toHaveURL(new RegExp('locale=' + locale));
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(sessionCopy(locale).signIn);
     await audit(page, info);
   });

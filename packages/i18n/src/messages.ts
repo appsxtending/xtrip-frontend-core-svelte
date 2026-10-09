@@ -1,6 +1,7 @@
 import type { PresentationLocale } from './index.js';
 export const messages = {
   en: {
+    sessionIntegration: 'Session integration',
     close: 'Close',
     open: 'Open',
     search: 'Search',
@@ -73,6 +74,7 @@ export const messages = {
     modified: 'Unsaved changes',
   },
   ar: {
+    sessionIntegration: 'تكامل الجلسة',
     close: 'إغلاق',
     open: 'فتح',
     search: 'بحث',
@@ -145,6 +147,7 @@ export const messages = {
     modified: 'تغييرات غير محفوظة',
   },
   th: {
+    sessionIntegration: 'การเชื่อมต่อเซสชัน',
     close: 'ปิด',
     open: 'เปิด',
     search: 'ค้นหา',

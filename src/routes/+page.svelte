@@ -239,7 +239,7 @@
         closeHref={href(section)}
       />
     </section>
-    <a class="ui-link" href="/session/login">Session integration</a>
+    <a class="ui-link" href={`/session/login?locale=${data.locale}`}>{copy.sessionIntegration}</a>
     <footer class="ui-card">
       <button
         class="ui-disclosure"
