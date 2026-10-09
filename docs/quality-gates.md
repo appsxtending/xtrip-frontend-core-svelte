@@ -13,3 +13,5 @@ Axe and accessible-name/keyboard checks are automated evidence. Actual screen-re
 Use only canonical synthetic fixtures in retained CI reports. Run real API checks separately with the owner profile and public-key configuration; traces, screenshots and video remain disabled for these journeys. Never commit environment files. The exact F0.2 canonical-example deferral still blocks strict final release; it does not relax quality gates.
 
 Internal F0.4 integration callers migrate from the unpublished `uiCopy.session(locale)` expando to the explicit `sessionCopy(locale)` export. This permits the foundation to tree-shake session-only dictionaries and stay within its original JS budget.
+
+CI also runs isolated negative probes against actual runners: remove a compiled Thai dictionary key, reduce the foundation JS allowance to one byte, and substitute the wrong-size committed screenshot. Each must reach a failing assertion; originals are restored in finally blocks before normal acceptance. Negative reports are retained separately. Candidate runs omit visual drift until references exist.

@@ -32,6 +32,33 @@ jobs:
       - name: Production package and SSR builds
         if: ${{ !cancelled() }}
         run: npm run build
+      - name: Prove quality gates reject deliberate defects
+        if: ${{ !cancelled() }}
+        shell: python
+        run: |
+          import json, os, subprocess
+          from pathlib import Path
+          def rejects(name, path, replacement, command):
+              original = path.read_bytes()
+              try:
+                  path.write_bytes(replacement)
+                  result = subprocess.run(command, capture_output=True, text=True, env={**os.environ, 'PLAYWRIGHT_HTML_OUTPUT_DIR': 'playwright-report/negative-' + name})
+                  if result.returncode == 0:
+                      raise RuntimeError(name + ' gate accepted the deliberate defect')
+                  if 'failed' not in result.stdout.lower():
+                      raise RuntimeError(name + ' did not reach an assertion: ' + result.stderr[-1000:])
+                  print(name + ': deliberate defect rejected')
+              finally:
+                  path.write_bytes(original)
+          locale = Path('packages/i18n/dist/messages.js')
+          rejects('locale-key', locale, locale.read_bytes() + b'\ndelete messages.th.close;\n', ['npx', 'vitest', 'run', 'test/component/localization.spec.ts'])
+          budget = Path('contracts/quality-gates.json')
+          value = json.loads(budget.read_text())
+          value['limits']['jsBytes'] = 1
+          rejects('route-budget', budget, json.dumps(value).encode(), ['npx', 'playwright', 'test', '--project=foundation', 'quality-performance', '-g', 'performance foundation', '--output=test-results/negative-budget'])
+          visual = Path('e2e/visual-baselines/en-390.png')
+          if visual.exists():
+              rejects('visual-drift', visual, Path('e2e/visual-baselines/en-1440.png').read_bytes(), ['npx', 'playwright', 'test', '--project=visual', '-g', 'visual en 390$', '--output=test-results/negative-visual'])
       - name: Foundation browser regression
         if: ${{ !cancelled() }}
         env:
